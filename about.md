@@ -1,16 +1,21 @@
 ---
 layout: page
 title: About
-permalink: /about/
 ---
 
-My name is Ismaël Lachheb, I am passionned by Data Science and FOSS related stuff. Here is a brief resume.
+My name is Ismaël Lachheb, I love Data Science and FOSS related stuff. More information about my work there :
 
-  
+
+- [My Github profil](https://github.com/lachhebo)
+
+- [My Kaggle profil](https://www.kaggle.com/lachhebo/kernels)
+
+- [My Linkedin profil](https://www.linkedin.com/in/isma%C3%ABl-lachheb-7b713a135/)
+
 ## Education
 
   
-####  2016-2019 (expected)   : Engineering School, Sup Galilée	
+####  2016-2019 (expected) : Engineering School, Sup Galilée	
 > Computer Science
 
 #### 2018-2019 : University of Warsaw
