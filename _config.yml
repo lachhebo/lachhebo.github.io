@@ -1,6 +1,6 @@
-title: Ismaël Lachheb 
+title: Ismaël Lachheb
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to my Development Blog, Here, you will find blog post about Data Science, software development, 
+  Welcome to my Development Blog, Here, you will find blog post about Data Science, software development,
   my projects or FOSS related article.
 author:
   name: "Ismaël Lachheb "
@@ -12,6 +12,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  lachhebo
 
 
+google_analytics:  UA-142589817-1 
 
 
 source: .

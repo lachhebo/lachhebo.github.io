@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ismaël Lachheb</title>
-    <description>Welcome to my Development Blog, Here, you will find blog post about Data Science, software development,  my projects or FOSS related article.</description>
+    <description>Welcome to my Development Blog, Here, you will find blog post about Data Science, software development, my projects or FOSS related article.</description>
     <link>http://localhost:8000</link>
     <atom:link href="http://localhost:8000/feed.xml" rel="self" type="application/rss+xml" />
     <author>
