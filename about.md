@@ -54,7 +54,7 @@ My name is Ismaël Lachheb, I love Data Science and FOSS related stuff. More inf
 > Scikit-learn, Seaborn, Matplotlib, Shiny, Keras, Jupyter, Pyod, Pyclustering, ...
 
 #### Tools
-> Git, Trello, Digrammes UML, Gantt, Travis-ci, read the docs
+> Git, Trello, Diagrammes UML, Gantt, Travis-ci, read the docs
 
 #### Software
 > LaTeX, MS Word, MS Excel
