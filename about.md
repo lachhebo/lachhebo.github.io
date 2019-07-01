@@ -20,10 +20,7 @@ My name is Ismaël Lachheb, I love Data Science and FOSS related stuff. More inf
 ## Projects
 
 #### 2019 : pyclustertend
-> A python package allowing data scientist to assess cluster tendency. Available on Pypi.
-
-#### 2019 : clusterbagging
-> A python package allowing data scientist to do cluster bagging, which means clustering the dataset and then training a supervised model for each cluster.
+> A python package allowing data scientist to assess cluster tendency. Available on Pypi, Hopkins test and VAT algorithm implemented.
 
 #### 2019 : Gabtag
 > A linux application allowing user to modify music tags, music tags and lyrics can be found automatically using online data scrapped from musicbrainz and lyrics.wikia website. Available on Flathub.
