@@ -3,8 +3,8 @@
   <channel>
     <title>Ismaël Lachheb</title>
     <description>Welcome to my Development Blog, Here, you will find blog post about Data Science, software development, my projects or FOSS related article.</description>
-    <link>http://localhost:4000</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:8000</link>
+    <atom:link href="http://localhost:8000/feed.xml" rel="self" type="application/rss+xml" />
     <author>
       <name>Ismaël Lachheb </name>
       <email>ismael.lachheb@protonmail.com</email>
@@ -12,33 +12,78 @@
     </author>
     
       <item>
-        <title>Development Journal : GabTag 1</title>
-        <description>&lt;p&gt;Here, I would like to present my experience making my first Linux Gtk application. I will mostly talk about the issues i encountered because it is the most interesseting part and the most informative too.&lt;/p&gt;
+        <title>Development Journal 1: GabTag</title>
+        <description>&lt;p&gt;Here, I would like to present my experience making my first Linux Gtk application.&lt;/p&gt;
 
-&lt;h2 id=&quot;issues-encontered&quot;&gt;Issues encontered&lt;/h2&gt;
+&lt;h1 id=&quot;what-is-the-gabtag-project-&quot;&gt;What is the GabTag project ?&lt;/h1&gt;
 
-&lt;h3 id=&quot;first-issue-setting-up-travis-ci&quot;&gt;First issue : Setting up Travis-ci&lt;/h3&gt;
+&lt;p&gt;GabTag is a Linux audio tagging tool written in GTK 3, which makes it very suitable for GTK based desktop users.&lt;/p&gt;
 
-&lt;p&gt;I think the hardest thing for me has been to set up Travis-ci, I first set up a Travis-org CI (a deprecated version of Travis) instead of the classic Travis-ci and I was not able to transfer my project in the right version of travis. I had to create a new GitHub repository to fix that. Then when it was done, I had to guess that Travis need the python3-gi package and the PygObjext pip package to be able to test the project.&lt;/p&gt;
+&lt;p&gt;It allows users to select several files and modify their tags. It is also possible to let GabTag automatically find tags and lyrics for an audio file using MusicBrainz and lyrics.wikia.com database.&lt;/p&gt;
 
-&lt;h3 id=&quot;second-issue-make-the-grid-box-scrollable&quot;&gt;Second issue : make the grid box scrollable&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://flathub.org/apps/details/com.github.lachhebo.Gabtag&quot;&gt;&lt;img width=&quot;240&quot; alt=&quot;Download on Flathub&quot; src=&quot;https://flathub.org/assets/badges/flathub-badge-en.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;The second i encountered was the layout, to make my grid layout scrollable, i had to put it inside a GtkAspectFrame and a GtkViewport which are not the easiest objects to access with glade. Anyway my layout is still not completely satisfying because i always need to resize the size of my panel when i’m using Gabtag.&lt;/p&gt;
+&lt;h3 id=&quot;screenshots&quot;&gt;Screenshots:&lt;/h3&gt;
 
-&lt;h3 id=&quot;third-issue--using-gdkpixbufprolog&quot;&gt;Third issue : Using GdkPixbufProlog&lt;/h3&gt;
+&lt;p&gt;&lt;img height=&quot;350&quot; src=&quot;https://raw.githubusercontent.com/lachhebo/GabTag/screenshots/Gabtag_v13_2.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;features-&quot;&gt;Features :&lt;/h3&gt;
+
+&lt;p&gt;Some features have been developped but the application can still be improved.&lt;/p&gt;
+
+&lt;ul class=&quot;task-list&quot;&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Add, modify or delete basic tags (title, album, artist, genre)&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;other strings tags and labels&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Cover tag&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Modify several file at the same time.&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;MP3  File handled&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Flac File handled&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;bold font on modified tags and files&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Automatic completion of tags (from online data)&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Lyrics (from online data)&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Multi-folder modification&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Acoustic ID integration&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;issues-encontered-during-development&quot;&gt;Issues encontered during development&lt;/h1&gt;
+
+&lt;p&gt;The issues i enconutered are mostly caused by the lack of documentation regarding gtk3 software development.&lt;/p&gt;
+
+&lt;h3 id=&quot;1-setting-up-travis-ci&quot;&gt;1) setting up Travis-ci&lt;/h3&gt;
+
+&lt;p&gt;I think the hardest thing for me has been to set up Travis-ci, I first set up a Travis-org ci (a deprecated version of Travis-ci) instead of the classic Travis-ci. I was not able to transfer my project in the newer version of Travis-CI. I had to create a new GitHub repository to fix that. Then, I struglled to find out that Travis need the python3-gi package and the PygObject pip package to be able to test the project.&lt;/p&gt;
+
+&lt;h3 id=&quot;2-make-the-grid-box-scrollable&quot;&gt;2) make the grid box scrollable&lt;/h3&gt;
+
+&lt;p&gt;The second i encountered was linked to the layout. To make my grid layout scrollable, i had to put it inside a GtkAspectFrame and a GtkViewport. Anyway my layout is still not completely satisfying because i always need to resize the size of my panel when i’m using Gabtag.&lt;/p&gt;
+
+&lt;h3 id=&quot;3-using-gdkpixbufprolog&quot;&gt;3) using GdkPixbufProlog&lt;/h3&gt;
 
 &lt;p&gt;Finally the third issue which is still not fixed is with gdkpixbuf class. It is a bit surprising how showing an image can be hard in gtk. I had to use an external API called Pillow to show a byte image.&lt;/p&gt;
 
 &lt;p&gt;Even more surprising, for some image, the gtk pixbuf is not showing a scaled version of it but a deformed version of it. This issue is only apparing on my application so I hope I will be able to quickly fix it.&lt;/p&gt;
 
-&lt;h3 id=&quot;conclusion-&quot;&gt;Conclusion :&lt;/h3&gt;
-
 &lt;p&gt;If you get a solution for those issues, you can send my an email to ismael.lachheb@protonmail.com. Otherwise, i hope my experience can help you.&lt;/p&gt;
+
+&lt;h1 id=&quot;gathered-skills&quot;&gt;Gathered skills&lt;/h1&gt;
+
+&lt;p&gt;I am proud of my work and hope to keep improving Gabtag. I have improved myself in many ways. This experience has sharpen my skills in :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Python Development&lt;/li&gt;
+  &lt;li&gt;Continious Integration&lt;/li&gt;
+  &lt;li&gt;Object oriented programming&lt;/li&gt;
+  &lt;li&gt;Translation&lt;/li&gt;
+  &lt;li&gt;Flatpak packaging&lt;/li&gt;
+  &lt;li&gt;Reverse engineering&lt;/li&gt;
+  &lt;li&gt;Git&lt;/li&gt;
+&lt;/ul&gt;
+
 </description>
         <pubDate>Wed, 15 May 2019 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000//GabTag-Journal-Development-1</link>
-        <link href="http://localhost:4000/GabTag-Journal-Development-1"/>
-        <guid isPermaLink="true">http://localhost:4000/GabTag-Journal-Development-1</guid>
+        <link>http://localhost:8000//GabTag-Journal-Development-1</link>
+        <link href="http://localhost:8000/GabTag-Journal-Development-1"/>
+        <guid isPermaLink="true">http://localhost:8000/GabTag-Journal-Development-1</guid>
       </item>
     
   </channel>
