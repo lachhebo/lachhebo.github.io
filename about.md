@@ -1,9 +1,9 @@
 ---
 layout: page
-title: About
+title: curriculum vitae
 ---
 
-My name is Ismaël Lachheb, I love Data Science and FOSS related stuff. More information about my work in my Github and Kaggle account. You can contact me using my email : ismael.lachheb@protonmail.com
+My name is Ismaël Lachheb, I like Data Science and FOSS. More information about my work in my Github and Kaggle account. You can contact me using my email : ismael.lachheb@protonmail.com
 
 ## Education
 
