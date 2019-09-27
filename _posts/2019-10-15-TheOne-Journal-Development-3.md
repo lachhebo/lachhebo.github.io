@@ -1,4 +1,4 @@
-	---
+---
 title: "Development Journal 3: TheOne"
 published: false
 ---
