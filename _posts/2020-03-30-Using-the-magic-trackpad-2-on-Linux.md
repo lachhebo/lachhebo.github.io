@@ -6,7 +6,7 @@ published: true
 
 
 
-# How to use a Apple Magic Trackpad on Linux ? 
+### How to use a Apple Magic Trackpad on Linux ? 
 
 
 Currently, the Apple magic trackpad is probably one or the best bluetooth trackpad on the market. Unfortunately, using it on Linux can still be a bit of a pain.
@@ -76,6 +76,6 @@ I conclude i just needed to add the Apple MagicTrackpad configuration in this fi
 As a final step, to avoid that anyone would once again loose one or two hours trying to use a simpel trackpad; i filled a bug report at fedora bugzilla available at this [address](https://bugzilla.redhat.com/show_bug.cgi?id=1818982) 
 
 
-## Conclusion 
+### Conclusion 
 
 I think it was a good example of how sometimes a Linux user can cope with an issue and report the problem to help others people not facing it.  
