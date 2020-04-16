@@ -6,12 +6,7 @@ categories: Gnome GTK Flatpak Python
 published: true
 ---
 
-Here, I would like to present my experience making my first Linux Gtk application.
-
-### What is the GabTag project ?
-
-
-GabTag is a Linux audio tagging tool written in GTK 3, which makes it very suitable for GTK based desktop users.
+ GabTag is a Linux audio tagging tool written in GTK 3, which makes it very suitable for GTK based desktop users. It is also the first Linux application i wrote.
 
 It allows users to select several files and modify their tags. It is also possible to let GabTag automatically find tags and lyrics for an audio file using MusicBrainz and lyrics.wikia.com database.
 
