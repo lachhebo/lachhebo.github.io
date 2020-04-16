@@ -1,5 +1,8 @@
 ---
-title: "Development Journal 1: GabTag"
+layout: post
+title:   "GabTag, an audio tagging tool"
+date:   2019-05-15
+categories: Gnome GTK Flatpak Python
 published: true
 ---
 

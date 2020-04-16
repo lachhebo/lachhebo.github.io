@@ -1,11 +1,12 @@
 ---
-title: "Development Journal 2: pyclustertend"
+layout: post
+title: "pyclustertend, a python package to assess cluster tendency"
+date:   2019-09-26
+categories: DataScience ML scikit-learn Python
 published: true
 ---
 
 Here, I would like to present my experience creating the package pyclustertend.
-
-# What is the pyclustertend project ?
 
 pyclustertend is a python package specialized in cluster tendency. Cluster tendency consist to assess if clustering algorithms are relevant for a dataset.
 
@@ -63,11 +64,6 @@ Three methods for assessing cluster tendency are currently implemented and one s
 
 
 # Source and Notes :
-
-The main article used to develop this package is available here :
-
-- https://www.researchgate.net/publication/224218006_An_Efficient_Formulation_of_the_Improved_Visual_Assessment_of_Cluster_Tendency_iVAT_Algorithm/link/0912f50fb54089734a000000
-
 
 It's preferable to scale the data before using hopkins or vat algorithm as they use distance between observations. Moreover, vat and ivat algorithms
 do not really fit to massive databases. For the user, a first solution is to sample the data before using those algorithms. As for the maintainer of this implementation, it could be useful to represent the dissimalirity matrix in a smarter way to decrease the time complexity.

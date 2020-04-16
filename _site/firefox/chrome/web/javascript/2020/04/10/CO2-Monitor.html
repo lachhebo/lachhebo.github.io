@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link href="https://fonts.googleapis.com/css?family=Merriweather:300|Raleway:400,700" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/style.css">
+<title>CO2-monitor: follow your carbon footprint on chrome</title>
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>CO2-monitor: follow your carbon footprint on chrome | Ismaël Lachheb</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="CO2-monitor: follow your carbon footprint on chrome" />
+<meta name="author" content="lachhebo" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="CO2-monitor is a chrome extension to follow your carbon footprint during your navigation on the Internet." />
+<meta property="og:description" content="CO2-monitor is a chrome extension to follow your carbon footprint during your navigation on the Internet." />
+<link rel="canonical" href="http://localhost:4000/firefox/chrome/web/javascript/2020/04/10/CO2-Monitor.html" />
+<meta property="og:url" content="http://localhost:4000/firefox/chrome/web/javascript/2020/04/10/CO2-Monitor.html" />
+<meta property="og:site_name" content="Ismaël Lachheb" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-04-10T00:00:00+02:00" />
+<script type="application/ld+json">
+{"datePublished":"2020-04-10T00:00:00+02:00","author":{"@type":"Person","name":"lachhebo"},"description":"CO2-monitor is a chrome extension to follow your carbon footprint during your navigation on the Internet.","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/firefox/chrome/web/javascript/2020/04/10/CO2-Monitor.html"},"url":"http://localhost:4000/firefox/chrome/web/javascript/2020/04/10/CO2-Monitor.html","headline":"CO2-monitor: follow your carbon footprint on chrome","dateModified":"2020-04-10T00:00:00+02:00","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+</head>
+  <body>
+    <main class="container">
+      <section class="about">
+        <a href="/"><img src="/assets/portfolio.png" alt="Ismaël Lachheb"></a>
+        <h2 id="title">
+          <a href="/">Ismaël Lachheb</a>
+        </h2>
+        <p class="tagline">Engineer, Data Scientist.</p>
+        <ul class="social"><a href="https://github.com/lachhebo">
+              <li>
+                <i class="icon-github-circled"></i>
+              </li>
+            </a><a href="https://www.linkedin.com/in/lachhebo">
+              <li>
+                <i class="icon-linkedin-squared"></i>
+              </li>
+            </a></ul><p>&copy;
+          2020</p>
+      </section>
+      <section class="content">
+        <div class="post-container">
+  <a class="post-link" href="/firefox/chrome/web/javascript/2020/04/10/CO2-Monitor.html">
+    <h2 class="post-title">CO2-monitor: follow your carbon footprint on chrome</h2>
+  </a>
+  <div class="post-meta">
+    <ul class="post-categories"><li>Firefox</li><li>Chrome</li><li>Web</li><li>Javascript</li></ul>
+    <div class="post-date"><i class="icon-calendar"></i>Apr 10, 2020</div>
+  </div>
+  <div class="post">
+    <p>CO2-monitor is a chrome extension to follow your carbon footprint during your navigation on the Internet.</p>
+
+<h3 id="how-co2-emissions-are-assessed-">how co2 emissions are assessed ?</h3>
+
+<p>As many parameters need to be taken into account in the co2 emission equation, it is almost impossible to know exactly how much co2 has been produced by your daily internet usage; although, some of them are the following :</p>
+
+<ul>
+  <li>your computer energy consumption.</li>
+  <li>the carbon intensity of the electricity you’re using.</li>
+  <li>the website’s servers carbon intensity.</li>
+</ul>
+
+<p>My first idea was to use the user location, the carbon intensity of the electrical grid in the country he lives in, the cpu he uses and how much data is passing though chrome to obtain a rough estimation. However, this implementation has two major downsides :</p>
+
+<ul>
+  <li>it is not taking into account the carbon intensity of the data center.</li>
+  <li>the parameter used is not really at the hand of the user, so it would be hard for him to optimize his co2 emissions related to his daily browsing.</li>
+</ul>
+
+<p>As I discovered the API of wholegrain, I used it on around 50 most visited websites (according to alexa and similarweb) to obtain a rough estimation of how much co2 is produced when visiting each of those websites. Actually, three attributes have caught my attention for each website:</p>
+
+<ul>
+  <li>the co2 produced by visiting one page.</li>
+  <li>the size of the bytes transferred between my computer and the website.</li>
+  <li>the energy used to load the page.</li>
+</ul>
+
+<p>When you’re visiting one of the given website, the extension is using the data which are passing through chrome and the known co2 emissions for a certain data byte size to obtain a rough co2 emissions estimation. 
+When you’re navigating on unknown website, the extension is using the average result.</p>
+
+<p>I averaged the numbers obtained with the 50 websites. Hence, when you are visiting unknown website, the extension is using the average numbers to compute the co2-emissions.</p>
+
+<h3 id="resources">resources</h3>
+<p>Wholegrain API is used to obtain a rough estimation of the carbon intensity of a list of some most visited websites :</p>
+
+<ul>
+  <li><a href="https://www.websitecarbon.com/">Wholegrain Carbon API</a></li>
+</ul>
+
+<h3 id="supportdonation">support/donation</h3>
+
+<p><a href="https://www.paypal.me/lachhebo"><img height="30" src="https://raw.githubusercontent.com/lachhebo/GabTag/screenshots/donate.png" alt="PayPal" /></a></p>
+
+  </div></div>
+
+      </section>
+    </main><script async src="https://www.googletagmanager.com/gtag/js?id=UA-142589817-1"></script>
+      <script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'UA-142589817-1');
+	</script></body>
+</html>

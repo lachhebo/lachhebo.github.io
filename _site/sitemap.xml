@@ -1,19 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>http://localhost:8000/GabTag-Journal-Development-1</loc>
-<lastmod>2019-05-15T00:00:00+02:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:8000/404</loc>
-</url>
-<url>
-<loc>http://localhost:8000/about</loc>
-</url>
-<url>
-<loc>http://localhost:8000/archive</loc>
-</url>
-<url>
-<loc>http://localhost:8000/</loc>
-</url>
-</urlset>
+    <urlset
+        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+        <url>
+            <loc>http://localhost:4000</loc>
+            <lastmod>2019-06-07T00:00:00+00:00</lastmod>
+            <priority>1.00</priority>
+        </url><url>
+                <loc>http://localhost:4000/firefox/chrome/web/javascript/2020/04/10/CO2-Monitor.html</loc>
+                <lastmod>2020-04-10T00:00:00+02:00</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.80</priority>
+            </url><url>
+                <loc>http://localhost:4000/gnome/gtk/javascript/2020/04/10/corona-tracker.html</loc>
+                <lastmod>2020-04-10T00:00:00+02:00</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.80</priority>
+            </url><url>
+                <loc>http://localhost:4000/linux/hardware/2020/03/30/Using-the-magic-trackpad-2-on-Linux.html</loc>
+                <lastmod>2020-03-30T00:00:00+02:00</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.80</priority>
+            </url><url>
+                <loc>http://localhost:4000/datascience/ml/scikit-learn/python/2019/09/26/pyclustertend-Journal-Development-2.html</loc>
+                <lastmod>2019-09-26T00:00:00+02:00</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.80</priority>
+            </url><url>
+                <loc>http://localhost:4000/gnome/gtk/flatpak/python/2019/05/15/GabTag-Journal-Development-1.html</loc>
+                <lastmod>2019-05-15T00:00:00+02:00</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.80</priority>
+            </url></urlset>

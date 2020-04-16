@@ -1,109 +1,146 @@
-# The Hacker-Blog theme
+# plainwhite
 
-*Hacker-Blog is a minimalistic, responsive jekyll theme built for hackers. It is based on the [hacker theme](https://github.com/pages-themes/hacker) for project pages.*
+Simplistic jekyll portfolio-style theme for writers.
 
-Demo: [https://ashishchaudhary.in/hacker-blog](https://ashishchaudhary.in/hacker-blog)
+**Demo**: [thelehhman.com](https://thelehhman.com)
 
-### Included
+![plainwhite theme preview](/screenshot.png)
 
-1. Pagination
-2. SEO tags
-3. Archive Page
-4. RSS
-5. Sitemap 
+## Installation on Github Pages
+
+Add this line to your site's `_config.yml`:
+
+```yaml
+remote_theme: thelehhman/plainwhite-jekyll
+```
+
+## Installation
+
+Add this line to your Jekyll site's `Gemfile`:
+
+```ruby
+gem "plainwhite"
+```
+
+And add this line to your Jekyll site's `_config.yml`:
+
+```yaml
+theme: plainwhite
+```
+
+And then execute:
+
+    $ bundle
+
+Or install it yourself as:
+
+    $ gem install plainwhite
 
 ## Usage
 
-1. Fork and Clone this repository
-2. Customize your blog
-3. Add a new post in `_posts/` directory with proper name format (as shown in placeholder posts)
-4. Commit and push to master 
+The "plainwhite" key in \_config.yml is used to customize the theme data.
 
-## Local Build
+```yaml
+plainwhite:
+  name: Adam Denisov
+  tagline: Developer. Designer
+  date_format: "%b %-d, %Y"
 
-If you want to see the changes before pushing the blog to Github, do a local build.
-
-1. [`gem install jekyll`](https://jekyllrb.com/docs/installation/#install-with-rubygems)
-2. `gem install jekyll-seo-tag`
-3. (`cd` to the blog directory, then:) `jekyll serve --watch --port 8000`
-4. Go to `http://0.0.0.0:8000/` in your web browser.
-
-*Note: In case you have set a `baseurl` different than `/` in `_config.yml`, go to `http://0.0.0.0:8000/BASEURL/` instead.*
-
-### Local build using docker
-
-```bash
-docker run --rm -p 8000:8000 \
-  --volume="LOCATION_OF_YOUR_JEKYLL_BLOG:/srv/jekyll" \
-  -it tocttou/jekyll:3.5 \
-  jekyll serve --watch --port 8000
+  social_links:
+    twitter: thelehhman
+    github: thelehhman
+    linkedIn: in/thelehhman # format: locale/username
 ```
 
-Replace `LOCATION_OF_YOUR_JEKYLL_BLOG` with the full path of your blog repository. Visit `http://localhost:8000/` to access the blog.
+**Updating Placeholder Image**
 
-*Note: In case you have set a `baseurl` different than `/` in `_config.yml`, go to `http://0.0.0.0:8000/BASEURL/` instead.*
+The placeholder portfolio image can be replaced by the desired image by placing it as `assets/portfolio.png` in your jekyll website.
 
-## Customizing
+**Comments (Disqus)**
 
-### Configuration variables
+Comments on posts can be enabled by specifying your disqus_shortname under plainwhite in `_config.yml`. For example,
 
-Edit the `_config.yml` file and set the following variables:
-
-```yml
-title: [The title of your blog]
-description: [A short description of your blog's purpose]
-author:
-  name: [Your name]
-  email: [Your email address]
-  url: [URL of your website]
-
-baseurl: [The base url for this blog.]
-
-paginate: [Number of posts in one paginated section (default: 3)]
-owner: [Your name]
-year: [Current Year]
+```yaml
+plainwhite:
+  disqus_shortname: games
 ```
 
-*Note: All links in the site are prepended with `baseurl`. Default `baseurl` is `/`. Any other baseurl can be setup like `baseurl: /hacker-blog`, which makes the site available at `http://domain.name/hacker-blog`.*
+**Google Analytics**
 
-Additionally, you may choose to set the following optional variables:
+It can be enabled by specifying your analytics id under plainwhite in `_config.yml`
 
-```yml
-google_analytics: [Your Google Analytics tracking ID]
+```yaml
+plainwhite:
+  analytics_id: "< YOUR ID >"
 ```
 
-### About Page
+**Sitemap**
 
-Edit `about.md`
+It can be toggled by the following line to under plainwhite in `_config.yml`
 
-### Layout
+```yaml
+plainwhite:
+  sitemap: true
+```
 
-If you would like to modify the site style:
+**Excerpts**
 
-**HTML**
+Excerpts can be enabled by adding the following line to your `_config.yml`
 
-Footer: Edit `_includes/footer.html`
+```yaml
+show_excerpts: true
+```
 
-Header: Edit `_includes/header.html`
+**Layouts**
 
-Links in the header: Edit `_includes/links.html`
+- Home
+- Page
+- Post
 
-Meta tags, blog title display, and additional CSS: Edit `_includes/head.html`
+**Navigation**
 
-Index page layout: Edit `_layouts/default.html`
+Navigation can be enabled by adding the following line to your `_config.yml`
 
-Post layout: Edit `_layouts/post.html`
+```yaml
+plainwhite:
+  navigation:
+    - title: My Work
+      url: "/my-work"
+    - title: Resume
+      url: "/resume"
+```
 
-**CSS**
+**Multiline tagline**
 
-Site wide CSS: Edit `_sass/base.scss`
+Tagline can be multiline in this way
 
-Custom CSS: Make `_sass/custom.scss` and use it. Then add `@import "custom";` to `css/main.scss`
+```yaml
+plainwhite:
+  tagline: |
+  First Line. 
 
-**404 page**
+  Second Line. 
 
-Edit `404.md`
+  Third Line.
+```
+
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/thelehhman/plainwhite-jekyll. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+
+## Development
+
+To set up your environment to develop this theme, run `bundle install`.
+
+Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
+
+When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
+To add a custom directory to your theme-gem, please edit the regexp in `plainwhite.gemspec` accordingly.
 
 ## License
 
-CC0 1.0 Universal
+The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
+## More themes
+
+- [Texture](https://github.com/thelehhman/texture)

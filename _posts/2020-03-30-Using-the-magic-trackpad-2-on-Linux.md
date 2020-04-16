@@ -1,5 +1,8 @@
 ---
+layout: post
 title: "Use an Apple Magic Trackpad on Linux"
+date:   2020-03-30
+categories: Linux Hardware
 published: true
 ---
 

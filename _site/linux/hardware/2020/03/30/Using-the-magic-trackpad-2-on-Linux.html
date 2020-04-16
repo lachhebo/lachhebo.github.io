@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link href="https://fonts.googleapis.com/css?family=Merriweather:300|Raleway:400,700" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/style.css">
+<title>Use an Apple Magic Trackpad on Linux</title>
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Use an Apple Magic Trackpad on Linux | Ismaël Lachheb</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Use an Apple Magic Trackpad on Linux" />
+<meta name="author" content="lachhebo" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="How to use a Apple Magic Trackpad on Linux ?" />
+<meta property="og:description" content="How to use a Apple Magic Trackpad on Linux ?" />
+<link rel="canonical" href="http://localhost:4000/linux/hardware/2020/03/30/Using-the-magic-trackpad-2-on-Linux.html" />
+<meta property="og:url" content="http://localhost:4000/linux/hardware/2020/03/30/Using-the-magic-trackpad-2-on-Linux.html" />
+<meta property="og:site_name" content="Ismaël Lachheb" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-03-30T00:00:00+02:00" />
+<script type="application/ld+json">
+{"datePublished":"2020-03-30T00:00:00+02:00","author":{"@type":"Person","name":"lachhebo"},"description":"How to use a Apple Magic Trackpad on Linux ?","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/linux/hardware/2020/03/30/Using-the-magic-trackpad-2-on-Linux.html"},"url":"http://localhost:4000/linux/hardware/2020/03/30/Using-the-magic-trackpad-2-on-Linux.html","headline":"Use an Apple Magic Trackpad on Linux","dateModified":"2020-03-30T00:00:00+02:00","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+</head>
+  <body>
+    <main class="container">
+      <section class="about">
+        <a href="/"><img src="/assets/portfolio.png" alt="Ismaël Lachheb"></a>
+        <h2 id="title">
+          <a href="/">Ismaël Lachheb</a>
+        </h2>
+        <p class="tagline">Engineer, Data Scientist.</p>
+        <ul class="social"><a href="https://github.com/lachhebo">
+              <li>
+                <i class="icon-github-circled"></i>
+              </li>
+            </a><a href="https://www.linkedin.com/in/lachhebo">
+              <li>
+                <i class="icon-linkedin-squared"></i>
+              </li>
+            </a></ul><p>&copy;
+          2020</p>
+      </section>
+      <section class="content">
+        <div class="post-container">
+  <a class="post-link" href="/linux/hardware/2020/03/30/Using-the-magic-trackpad-2-on-Linux.html">
+    <h2 class="post-title">Use an Apple Magic Trackpad on Linux</h2>
+  </a>
+  <div class="post-meta">
+    <ul class="post-categories"><li>Linux</li><li>Hardware</li></ul>
+    <div class="post-date"><i class="icon-calendar"></i>Mar 30, 2020</div>
+  </div>
+  <div class="post">
+    <h3 id="how-to-use-a-apple-magic-trackpad-on-linux-">How to use a Apple Magic Trackpad on Linux ?</h3>
+
+<p>Currently, the Apple magic trackpad is probably one or the best bluetooth trackpad on the market. Unfortunately, using it on Linux can still be a bit of a pain.</p>
+
+<p>If it is not a problem anymore to pair the device with the computer, the trackpad will probably not correctly repond to the order you will give to it at first.</p>
+
+<p>Most user would sadly conclude that the device is not working on Linux and would pick an another trackpad but not me (and may be not you). I went on the Internet on looked after a solution until i found this great Github repository :</p>
+
+<ul>
+  <li>https://github.com/robotrovsky/Linux-Magic-Trackpad-2-Driver</li>
+</ul>
+
+<p>The solution they gave for ‘pressure’ issue was to create a 90-magic-trackpad.conf in the /usr/share/X11/xorg.conf.d folder who look like that :</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Section "InputClass"
+        Identifier      "Touchpads"
+        Driver          "libinput"
+        MatchProduct    "Apple Inc. Magic Trackpad 2"
+        MatchDevicePath "/dev/input/event*"
+EndSection
+</code></pre></div></div>
+
+<p>It did not work, so i looked at the file already present in this folder and found the 10-quirks.conf who looked like that :</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Collection of quirks and blacklist/whitelists for specific devices.
+
+# Accelerometer device, posts data through ABS_X/ABS_Y, making X unusable
+# http://bugs.freedesktop.org/show_bug.cgi?id=22442 
+Section "InputClass"
+        Identifier "ThinkPad HDAPS accelerometer blacklist"
+        MatchProduct "ThinkPad HDAPS accelerometer data"
+        Option "Ignore" "on"
+EndSection
+
+# https://bugzilla.redhat.com/show_bug.cgi?id=523914
+# Mouse does not move in PV Xen guest
+# Explicitly tell evdev to not ignore the absolute axes.
+Section "InputClass"
+        Identifier "Xen Virtual Pointer axis blacklist"
+        MatchProduct "Xen Virtual Pointer"
+        Option "IgnoreAbsoluteAxes" "off"
+        Option "IgnoreRelativeAxes" "off"
+EndSection
+
+# https://bugs.freedesktop.org/show_bug.cgi?id=55867
+# Bug 55867 - Doesn't know how to tag XI_TRACKBALL
+Section "InputClass"
+        Identifier "Tag trackballs as XI_TRACKBALL"
+        MatchProduct "trackball"
+        MatchDriver "evdev"
+        Option "TypeName" "TRACKBALL"
+EndSection
+
+# https://bugs.freedesktop.org/show_bug.cgi?id=62831
+# Bug 62831 - Mionix Naos 5000 mouse detected incorrectly
+Section "InputClass"
+        Identifier "Tag Mionix Naos 5000 mouse XI_MOUSE"
+        MatchProduct "La-VIEW Technology Naos 5000 Mouse"
+        MatchDriver "evdev"
+        Option "TypeName" "MOUSE"
+EndSection
+</code></pre></div></div>
+
+<p>I conclude i just needed to add the Apple MagicTrackpad configuration in this file and it worked perfectly :). Actually, to enable the to enable touch to click, i also add the line :</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Option          "Tapping" "on"
+</code></pre></div></div>
+
+<p>As a final step, to avoid that anyone would once again loose one or two hours trying to use a simpel trackpad; i filled a bug report at fedora bugzilla available at this <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1818982">address</a></p>
+
+<h3 id="conclusion">Conclusion</h3>
+
+<p>I think it was a good example of how sometimes a Linux user can cope with an issue and report the problem to help others people not facing it.</p>
+
+  </div></div>
+
+      </section>
+    </main><script async src="https://www.googletagmanager.com/gtag/js?id=UA-142589817-1"></script>
+      <script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'UA-142589817-1');
+	</script></body>
+</html>

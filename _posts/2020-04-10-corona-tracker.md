@@ -1,5 +1,8 @@
 ---
-title: "corona-tracker: follow the spread of the covid 19 virus in your country"
+layout: post
+title: "corona-tracker, follow the spread of the covid 19 virus in your country"
+date:   2020-04-10
+categories: Gnome GTK Javascript
 published: true
 ---
 
@@ -8,9 +11,8 @@ corona-tracker is a gnome shell extension that notify you every day with informa
 
 **Please stay at home, save lives.**
 
-### Screenshot
 
-![Screenshot](/resources/screenshot.png)
+<img height="350" src="https://raw.githubusercontent.com/lachhebo/corona-tracker/master/resources/screenshot.png" />
 
 ### Usage
 
@@ -32,7 +34,7 @@ In `Icon > Settings` you can choose the country for which the data is displayed.
 
 
 
-### support/donation
+### support
 
 
 [<img height="30" src="https://raw.githubusercontent.com/lachhebo/GabTag/screenshots/donate.png" alt="PayPal"/>](https://www.paypal.me/lachhebo)
