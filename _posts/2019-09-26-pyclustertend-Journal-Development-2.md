@@ -6,9 +6,7 @@ categories: DataScience ML scikit-learn Python
 published: true
 ---
 
-Here, I would like to present my experience creating the package pyclustertend.
-
-pyclustertend is a python package specialized in cluster tendency. Cluster tendency consist to assess if clustering algorithms are relevant for a dataset.
+Here, I would like to present my experience creating the package pyclustertend. pyclustertend is a python package available on Pypi specialized in cluster tendency which consist to assess if clustering algorithms are relevant for a dataset.
 
 Three methods for assessing cluster tendency are currently implemented and one suplementary method based on metrics obtained with a KMeans estimator :
 
