@@ -7,11 +7,6 @@ published: true
 ---
 
 
-
-
-### How to use a Apple Magic Trackpad on Linux ? 
-
-
 Currently, the Apple magic trackpad is probably one or the best bluetooth trackpad on the market. Unfortunately, using it on Linux can still be a bit of a pain.
 
 If it is not a problem anymore to pair the device with the computer, the trackpad will probably not correctly repond to the order you will give to it at first. 
