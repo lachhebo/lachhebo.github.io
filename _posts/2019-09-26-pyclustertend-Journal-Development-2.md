@@ -16,15 +16,15 @@ Three methods for assessing cluster tendency are currently implemented and one s
 
 - [x] Metric based method (silhouette, calinksi, davies bouldin)
 
-## Installation :
+## Installation
 
 ```shell
     pip install pyclustertend
 ```
 
-## Usage :
+## Usage
 
-### Example Hopkins :
+### Example Hopkins
 
 ```python
     >>>from sklearn import datasets
@@ -35,7 +35,7 @@ Three methods for assessing cluster tendency are currently implemented and one s
     0.18950453452838564
 ```
 
-### Example VAT :
+### Example VAT
 
 ```python
     >>>from sklearn import datasets
@@ -47,8 +47,7 @@ Three methods for assessing cluster tendency are currently implemented and one s
 
 <img height="350" src="https://raw.githubusercontent.com/lachhebo/pyclustertend/screenshots/vat.png" />
 
-### Example iVat :
-
+### Example iVat
 
 ```python
     >>>from sklearn import datasets
@@ -60,16 +59,14 @@ Three methods for assessing cluster tendency are currently implemented and one s
 
 <img height="350" src="https://raw.githubusercontent.com/lachhebo/pyclustertend/screenshots/ivat.png" />
 
-
-# Source and Notes :
+## Source and Notes
 
 It's preferable to scale the data before using hopkins or vat algorithm as they use distance between observations. Moreover, vat and ivat algorithms
 do not really fit to massive databases. For the user, a first solution is to sample the data before using those algorithms. As for the maintainer of this implementation, it could be useful to represent the dissimalirity matrix in a smarter way to decrease the time complexity.
 
+## Gathered skills
 
-# Gathered skills :
-
-I am proud of my work and hope to keep improving pyclustertend. I have improved myself in many ways. This experience has sharpen my skills in :
+I am proud of my work and hope to keep bring improvments on pyclustertend. This experience sharped my skills in :
 
 - Python Development
 - Continious Integration
