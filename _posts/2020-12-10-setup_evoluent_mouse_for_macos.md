@@ -6,17 +6,19 @@ categories: MacOS Hardware
 published: true
 ---
 
+
+
+The Evoluent Vertical mouse is probably one of the best vertical mouses on the market and I could easily advise you to use it if your interested in this kind of products. However, the Evoluent team was not able to develop macOS driver for the mouse. So by default, we can't remap the mutliple buttons of the mouse. Thanskfully the open source community developed a program for macOS called [Karabiner](https://karabiner-elements.pqrs.org/) which can do wonders here. You can easily install it and then use the configuration file below to use the evoluent mouse with my configuration.
+
 ![Evoluent mouse](/assets/evoluent_mouse.jpg)
 
-The Evoluent Vertical mouse is probably one of the best vertical mouse on the market and I could easily advise you to use it if your interesseted by this kind of product. However, the Evoluent team was not able to develop macos driver for the mouse. So by default, we can't remap the mutlitple buttons of the mouse. Thanskfully the open source community develop a program for macOS called [Karabiner](https://karabiner-elements.pqrs.org/) who can do wonders in our case. You can easily install it and then use this configuration file to use the evoluent mouse with my configuration.
-
-My config file for karabiner can be download through this link <a href="/assets/download/karabiner.json">karabiner.json</a>. Put it here *~/config/karabiner/karabiner.json*.
+My config file for karabiner can be downloaded through this link <a href="/assets/download/karabiner.json" download>karabiner.json</a>. Put it here *~/config/karabiner/karabiner.json*.
 
  Below, I go more in depth about how I configured the mouse.
 
 ## Switch between workspace
 
-The first rule to add to make the mouse tolerable in macos is the one that allows switching between workspaces like you can do it using a macbook trackpad. Hence, we are a mapping a press to the edge button to switch to the left or right workspace.
+The first rule to add to make the mouse tolerable in macOS is the rule allowing switching between workspaces, just like you can do using a macbook trackpad. Hence, we are mapping a press to the edge button to switch to left or right workspace.
 
     {
         "from": {
