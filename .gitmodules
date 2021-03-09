@@ -1,6 +1,0 @@
-[submodule "templates/lightspeed"]
-	path = templates/lightspeed
-	url = git@github.com:bradleytaunt/lightspeed.git
-[submodule "themes/lightspeed"]
-	path = themes/lightspeed
-	url = git@github.com:bradleytaunt/lightspeed.git
