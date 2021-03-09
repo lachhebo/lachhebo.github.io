@@ -1,0 +1,3 @@
+[submodule "templates/lightspeed"]
+	path = templates/lightspeed
+	url = git@github.com:bradleytaunt/lightspeed.git
