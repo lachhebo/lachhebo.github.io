@@ -8,15 +8,8 @@ jobs:
     steps:
       # Checkout
       - uses: actions/checkout@v2
-
-      # git submodule
-      - name: init submodule 
-        run: | 
-          git submodule init
-      
-      - name: fetch submodule 
-        run: | 
-          git submodule update
+        with:
+          submodules: recursive
 
       - name: Deploy to gh-pages branch
         uses: shalzz/zola-deploy-action@v0.13.0
