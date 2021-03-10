@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Using a tiling window manager for a week on thinkpad T460"
+title: "testing a tiling window manager for a week on thinkpad"
 date:   2020-05-17
 published: true
 ---

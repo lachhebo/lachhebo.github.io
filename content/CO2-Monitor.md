@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'CO2-monitor: follow your carbon footprint on chrome'
+title: 'co2-monitor: follow your carbon footprint on chrome'
 date: 2020-04-16
 published: true
 ---

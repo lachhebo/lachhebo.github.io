@@ -1,5 +1,5 @@
 ---
-title: "Setup an Evoluent Vertical Mouse for MacOs"
+title: "setup an Evoluent Vertical Mouse on macos"
 date: 2020-12-16
 ---
 
