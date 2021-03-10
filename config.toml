@@ -24,6 +24,8 @@ highlight_theme = "gruvbox-light"
 footer_links = [
     {url = "$BASE_URL/about", name = "about"},
     {url = "$BASE_URL/atom.xml", name = "rss"},
+    {url = "https://github.com/lachhebo", name = "github"},
+    {url = "https://twitter.com/lachhebo7", name = "twitter"}, 
 ]
 
 seo = true
