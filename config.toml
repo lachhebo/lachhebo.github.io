@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://lachhebo.github.io"
+base_url = "https://ismaellachheb.fr"
 theme = "lightspeed"
 title = "isma's hut"
 description = "Bloging about ML, FOSS and green IT"
