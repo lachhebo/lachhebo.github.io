@@ -3,7 +3,7 @@ title: "setup an Evoluent Vertical Mouse on macos"
 date: 2020-12-16
 ---
 
-The Evoluent Vertical mouse is probably one of the best vertical mouses on the market and I could easily advise you to use it if your interested in this kind of products. However, the Evoluent team was not able to develop macOS driver for the mouse. So by default, we can't remap the mutliple buttons of the mouse. Thanskfully the open source community developed a program for macOS called [Karabiner](https://karabiner-elements.pqrs.org/) which can do wonders here. You can easily install it and then use the configuration file below to use the evoluent mouse with my configuration.
+The Evoluent Vertical mouse is probably one of the best vertical mouses on the market and I could easily advise you to use it if your interested in this kind of products. However, Evoluent team was not able to develop macOS driver for the mouse. So by default, we can't remap the mutliple buttons of the mouse. Thanskfully the open source community developed a program for macOS called [Karabiner](https://karabiner-elements.pqrs.org/) which can do wonders here. You can easily install it and then use the configuration file below to use the evoluent mouse with my configuration.
 
 My config file for karabiner can be downloaded through this link <a href="https://raw.githubusercontent.com/lachhebo/lachhebo.github.io/screenshots/download/karabiner.json" download>karabiner.json</a>. Put it here *~/config/karabiner/karabiner.json*.
 
