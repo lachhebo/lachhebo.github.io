@@ -30,16 +30,22 @@ The key to create a lightweight website is to :
 
 I choosed to start from a theme called **lightspeed**, it was optimised to be as lighweight as possible. I did a bit of configuration over it and my website was ready.
 
-The, I bought my domain name instead of using the Github default one with OVH. I set up the dns A name using the github servers, and in the repository, I added a file contaning a CNAME.
+Using OVH, I bought the domain name *'ismael.lachheb.com'* instead of using the Github default one with OVH. I set up the dns with *A name* using the github servers addresses (185.199.[108-109-110-111].153).
 
-Last but not least, to allow users to write comments on the blog, I did not want to use a server to save the comments. The simplest solution I found using open source tech was to use [utteranc.es](https://utteranc.es/), it allows user to publish comments on my blog using their github account. The downside is uses javascript to scrap the data from the github API, I think I can forgive myself.
+<img height="350" src="https://raw.githubusercontent.com/lachhebo/lachhebo.github.io/screenshots/ovh_dns_show.png" />
+
+It was not enough for my website to correctly works, every time a new article was pushed something to the website. Github was pushing the website to the address *lachhebo.github.com*, the default address. Eventually, in the repository, I fixed this issue by adding a CNAME file containing the name of my website *ismaellachheb.com*.
+
+Last but not least, to allow users to write comments on the blog, I did not want to use a server to save the comments. The simplest solution I found using open source solution was to use [utteranc.es](https://utteranc.es/). It allows user to publish comments on my blog using their Github account. It uses javascript to scrap the data from the github API.
+
+This small script is enough to link the github repository containing the comments to my website.
 
 ```javascript
-<script src="https://utteranc.es/client.js" 
-        repo="lachhebo/lachhebo.github.io" 
+<script src="https://utteranc.es/client.js"
+        repo="lachhebo/lachhebo.github.io"
         issue-term="title" 
         theme="github-light"
-        crossorigin="anonymous" async>  
+        crossorigin="anonymous" async>
 </script>
 ```
 
