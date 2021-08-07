@@ -27,11 +27,11 @@ The installation process was pretty fast :
 
 Firstly, i3 play well when installed next to gnome-shell, it is available in the list of desktop environnement (on the logging page) and gnome-shell continue to work without any issue or sluggishness when i3 is installed on the system. This is not the case when plasma is installed next to it as it is adviced to not install both desktop environnement on the system at the same time.
 
-When staring the i3 session, i easily followed the step of the welcome screen and start reading the config file as I was testing it. Default configuration are pretty good but depending on your hardware, many things will just don't work. On mine which is a thinkpad, I had to do a lot of things, let's review some issue i encontered.
+When starting i3 session, i easily followed steps of the welcome screen and start reading the configuration file as I was testing it. Default configuration are pretty good but depending on your hardware, many things won't work by default. On mine which is a thinkpad, I had to do a lot of things, let's review some issue i encontered.
 
 ### Fix
 
-The most annoying issue was with the screen management, I heard that tiling window manager play nicely with multiple monitor setup. Definetely not in my case, the issue with i3 is it will not dinamycally adjusting when my monitor setup change, I need to run one or two xrandr command line to handle every modification of my screens setup. When I branch a monitor and when I disbranched it; Same thing if I decide to close the lid of my laptop to only use the external monitor or when I open it. Those kinds of modifications can happened dozens of times in a single day and it's a real burden to handle this manually. Samthing with wallpaper because i also need to run a feh command in that case.
+The most annoying issue was with the screen management, I heard that tiling window manager play nicely with multiple monitor setup. Definetely not in my case, the issue with i3 is it will not dynamically adjusting when my monitor setup change, I need to run one or two xrandr command line to handle every modification of my screen setup. When I connect  a monitor and when I disconnect it. Same thing if I decide to close the lid of my laptop to only use the external monitor or when I open it. Those kinds of modifications can happened dozens of times in a single day and it's a real burden to handle this manually. Samething with wallpaper because i also need to run a feh command in that case.
 
     xrandr --output HDMI-2 --right-of eDP-1 --mode 2560x1440
 
