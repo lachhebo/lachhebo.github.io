@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>designing a lighweight   blog using github pages, zola and ovh &middot; isma&#x27;s hut</title>
+    <meta name="description" content="Bloging about ML, FOSS and green IT" />
+    <link rel="shortcut icon"  href="https://ismaellachheb.fr/favicon.ico" />
+    <link rel="alternate" type="application/atom+xml" title="RSS" href="https://ismaellachheb.fr/atom.xml">
+
+    <style>html,body{background:#ffffff;color:#2d2d2d;font:16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"}a,a:visited{color:darkred;text-decoration:none}a:hover{text-decoration:underline}main{margin:auto;max-width:38rem;padding:0.8rem}pre{background:white;overflow:scroll;padding:1rem}td{border:1px solid #2d2d2d;padding:10px}img{height:auto;max-width:100%}.homepage-list{list-style:none;padding:1rem 0}.homepage-list li{align-items:center;display:flex;flex-wrap:wrap;justify-content:space-between;margin-bottom:10px}@media (max-width: 38rem){.homepage-list li a{width:100%}}
+</style>
+
+    <meta property="og:site_name" content="isma&#x27;s hut">
+      
+      <meta property="og:title" content="designing a lighweight   blog using github pages, zola and ovh">
+      <meta property="og:description" content="">
+      <meta property="og:url" content="https://ismaellachheb.fr/design-website/">
+      <meta property="og:image" content="https://ismaellachheb.fr/portfolio.png">
+
+      <meta property="og:type" content="article" />
+        <meta property="article:published_time" content="2021-03-14T00:00:00+00:00" />
+
+      <link rel="prev" href="https://ismaellachheb.fr/setup-evoluent-mouse-for-macos/" />
+      <link rel="next" href="https://ismaellachheb.fr/dictial/" />
+    
+
+	<script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-142589817-1', 'auto');
+          ga('send', 'pageview');
+        </script>
+  </head>
+  
+
+  <body>
+    <main id="main" role="main">
+
+      
+      <header role="banner">
+        <h3 style="margin-top:0;">
+          <a href="https://ismaellachheb.fr" title="Home">isma&#x27;s hut</a>
+          <br /><small>Bloging about ML, FOSS and green IT</small>
+        </h3>
+      </header>
+      <hr />
+      
+
+      
+<article>
+  <h1>designing a lighweight   blog using github pages, zola and ovh</h1>
+
+  
+    <p style="font-size:90%;">Posted on <time datetime="2021-03-14T00:00:00+00:00">March 14, 2021</time></p>
+  
+
+  <p>This blog is actually quite old, the first version was created in 2019, but I recently felt the need for using a more lightweight blog. This urge is probably caused by the recent trend for <strong>minimalism</strong>, as websites bloated with animations actualy don't impress me anymore.</p>
+<p>'<em>Perfection is reached not when there is nothing more to add, but when there is nothing more to remove.</em>'
+Antoine de Saint Expuréry.</p>
+<p>The size of a webpage increased by 3x in the last 10 years in average, meaning slower surf speed for users, more memory and CPU consumption, this incentivize users to buy new hardware more quickly. As a consequence, the carbon impact of poorly designed website is not negligible.</p>
+<p>Besides, I want to use simpler tools, so that I may have a better grasp of my actions at the lower level. Also, I want a custom domain name as well as a comment fonctionnality.</p>
+<h2 id="finding-a-better-ssg">Finding a better SSG</h2>
+<p>Over the last years i have used <a href="https://jekyllrb.com/">jekyll</a>. It is a great tool that works well with Github (developed by the Github team). Yet, I was never quite satisfied with jekyll. Because Jekyll is written in Ruby (btw not a performance oriented language), I had to deal with dependency management. Moreover, jekyll seems to use too many abstractions for a simple blog.</p>
+<p>The first alternative to Jekyll I wanted to use was <a href="https://www.romanzolotarev.com/ssg.html">ssg5</a>, a SSG written in posix shell, to use it with markdown posts, I installed a C library (lowdown) on my system. ssg5's codebase is quite small (less than 1000 lines of code) but it <strong>wasn't rigorously maintained</strong>. Hence, it was not compatible with the latest version of lowdown, the C library used to handle markdown file.</p>
+<p>Hence, I looked at <a href="https://github.com/sunainapai/makesite">makesite.py</a>, a small python script (130 lines of code) which handles everything for the users. Makesite is a very good solution that will satisfy most users. The code serves as documentation and the users can easily understand how makesite works. However, I wanted to try a similar tool, written with another language.</p>
+<p>Eventually, I ended up using <a href="https://www.getzola.org/">Zola</a>, a SSG written in rust. It comes as a simple binary executable (no dependencies), is simple (in both lines of code and in usage) and it has a great documentation. Last but not least, it feels much more <strong>snappy</strong> than Jekyll.</p>
+<h2 id="creating-a-simpler-website">Creating a simpler website</h2>
+<p>The key to create a lightweight website is to :</p>
+<ul>
+<li>remove all javascript</li>
+<li>having the smallest amount of css involved</li>
+</ul>
+<p>I have choosen to start from a theme called <strong>lightspeed</strong>, which is optimised to be as lightweight as possible. I did a bit of configuration over it and my website was ready.</p>
+<p>Using OVH, I bought the domain name <em>'ismael.lachheb.com'</em> instead of using the Github default one with OVH. I set up the DNS with <em>A name</em> using the github servers' addresses (185.199.[108-109-110-111].153).</p>
+<img height="350" src="https://raw.githubusercontent.com/lachhebo/lachhebo.github.io/screenshots/ovh_dns_show.png" />
+<p>It was not enough for my website to correctly works. Every time a new article was published to the website. Github was serving the website to the address <em>lachhebo.github.com</em>, the default address and not my custom domain name. Eventually, in the repository, I fixed this issue by adding a CNAME file containing the name of my website <em>ismaellachheb.com</em>.</p>
+<p>Last step, to allow users to write comments on the blog, I did not want to use a server to save the comments. The simplest solution I found using open source solution was to use <a href="https://utteranc.es/">utteranc.es</a>. It allows user to publish comments on my blog using their Github account. It uses javascript to scrap the data from the Github API.</p>
+<p>This small script is enough to link the Github repository containing the comments to my website.</p>
+<pre style="background-color:#fcf0ca;">
+<code class="language-javascript" data-lang="javascript"><span style="color:#b23c15;">&lt;</span><span style="color:#282828;">script src</span><span style="color:#b23c15;">=</span><span style="color:#79740e;">&quot;https://utteranc.es/client.js&quot;
+        </span><span style="color:#282828;">repo</span><span style="color:#b23c15;">=</span><span style="color:#79740e;">&quot;lachhebo/lachhebo.github.io&quot;
+        </span><span style="color:#282828;">issue</span><span style="color:#b23c15;">-</span><span style="color:#282828;">term</span><span style="color:#b23c15;">=</span><span style="color:#79740e;">&quot;title&quot; 
+        </span><span style="color:#282828;">theme</span><span style="color:#b23c15;">=</span><span style="color:#79740e;">&quot;github-light&quot;
+        </span><span style="color:#282828;">crossorigin</span><span style="color:#b23c15;">=</span><span style="color:#79740e;">&quot;anonymous&quot; </span><span style="color:#282828;">async</span><span style="color:#b23c15;">&gt;
+</span><span style="color:#282828aa;">&lt;/</span><span style="color:#407959;">script</span><span style="color:#282828aa;">&gt;
+</span></code></pre>
+<p>Actually, each article is automatically linked to an issue with my blog github repository. As I think most people looking at my dev blog will have a github account, I think it is a great idea.</p>
+<p>At the end of the day, I am really happy with the result ! 🥳</p>
+
+
+</article>
+
+  <hr />
+  <p>
+  <script src="https://utteranc.es/client.js" repo="lachhebo/lachhebo.github.io" issue-term="title" theme="github-light"
+    crossorigin="anonymous" async>
+    </script>
+  </p>
+
+
+
+
+      
+      <footer role="contentinfo">
+        <hr />
+        
+        <nav style="margin-bottom:1rem;" role="navigation">
+          
+            <a href="https://ismaellachheb.fr/about">about</a>
+            
+              <span>&middot;</span>
+            
+          
+            <a href="https://ismaellachheb.fr/atom.xml">rss</a>
+            
+              <span>&middot;</span>
+            
+          
+            <a href="https://github.com/lachhebo">github</a>
+            
+              <span>&middot;</span>
+            
+          
+            <a href="https://twitter.com/lachhebo7">twitter</a>
+            
+          
+        </nav>
+        
+        
+        <small>
+          
+          
+        </small>
+        
+      </footer>
+      
+
+    </main>
+    
+    
+  </body>
+</html>
+

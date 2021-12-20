@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>setup an Evoluent Vertical Mouse on macos &middot; isma&#x27;s hut</title>
+    <meta name="description" content="Bloging about ML, FOSS and green IT" />
+    <link rel="shortcut icon"  href="https://ismaellachheb.fr/favicon.ico" />
+    <link rel="alternate" type="application/atom+xml" title="RSS" href="https://ismaellachheb.fr/atom.xml">
+
+    <style>html,body{background:#ffffff;color:#2d2d2d;font:16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"}a,a:visited{color:darkred;text-decoration:none}a:hover{text-decoration:underline}main{margin:auto;max-width:38rem;padding:0.8rem}pre{background:white;overflow:scroll;padding:1rem}td{border:1px solid #2d2d2d;padding:10px}img{height:auto;max-width:100%}.homepage-list{list-style:none;padding:1rem 0}.homepage-list li{align-items:center;display:flex;flex-wrap:wrap;justify-content:space-between;margin-bottom:10px}@media (max-width: 38rem){.homepage-list li a{width:100%}}
+</style>
+
+    <meta property="og:site_name" content="isma&#x27;s hut">
+      
+      <meta property="og:title" content="setup an Evoluent Vertical Mouse on macos">
+      <meta property="og:description" content="">
+      <meta property="og:url" content="https://ismaellachheb.fr/setup-evoluent-mouse-for-macos/">
+      <meta property="og:image" content="https://ismaellachheb.fr/portfolio.png">
+
+      <meta property="og:type" content="article" />
+        <meta property="article:published_time" content="2020-12-16T00:00:00+00:00" />
+
+      <link rel="prev" href="https://ismaellachheb.fr/i3-land/" />
+      <link rel="next" href="https://ismaellachheb.fr/design-website/" />
+    
+
+	<script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-142589817-1', 'auto');
+          ga('send', 'pageview');
+        </script>
+  </head>
+  
+
+  <body>
+    <main id="main" role="main">
+
+      
+      <header role="banner">
+        <h3 style="margin-top:0;">
+          <a href="https://ismaellachheb.fr" title="Home">isma&#x27;s hut</a>
+          <br /><small>Bloging about ML, FOSS and green IT</small>
+        </h3>
+      </header>
+      <hr />
+      
+
+      
+<article>
+  <h1>setup an Evoluent Vertical Mouse on macos</h1>
+
+  
+    <p style="font-size:90%;">Posted on <time datetime="2020-12-16T00:00:00+00:00">December 16, 2020</time></p>
+  
+
+  <p>The Evoluent Vertical mouse is probably one of the best vertical mouses on the market and I could easily advise you to use it if your interested in this kind of products. However, Evoluent team was not able to develop macOS driver for the mouse. So by default, we can't remap the mutliple buttons of the mouse. Thanskfully the open source community developed a program for macOS called <a href="https://karabiner-elements.pqrs.org/">Karabiner</a> which can do wonders here. You can easily install it and then use the configuration file below to use the evoluent mouse with my configuration.</p>
+<p>My config file for karabiner can be downloaded through this link <a href="https://raw.githubusercontent.com/lachhebo/lachhebo.github.io/screenshots/download/karabiner.json" download>karabiner.json</a>. Put it here <em>~/config/karabiner/karabiner.json</em>.</p>
+<p>Below, I go more in depth about how I configured the mouse.</p>
+<img height="350" src="https://raw.githubusercontent.com/lachhebo/lachhebo.github.io/screenshots/evoluent_mouse.jpg" />
+<h2 id="switch-between-workspace">Switch between workspace</h2>
+<p>The first rule to add to make the mouse tolerable in macOS is the rule allowing switching between workspaces, just like you can do using a macbook trackpad. Hence, we are mapping a press to the edge button to switch to left or right workspace.</p>
+<pre style="background-color:#fcf0ca;">
+<code class="language-json" data-lang="json"><span style="color:#282828aa;">    {
+        </span><span style="color:#79740e;">&quot;from&quot;</span><span style="color:#282828aa;">: {
+            </span><span style="color:#79740e;">&quot;pointing_button&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;button4&quot;
+        </span><span style="color:#282828aa;">},
+        </span><span style="color:#79740e;">&quot;to&quot;</span><span style="color:#282828aa;">: {
+            </span><span style="color:#79740e;">&quot;key_code&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;right_arrow&quot;</span><span style="color:#282828aa;">,
+            </span><span style="color:#79740e;">&quot;modifiers&quot;</span><span style="color:#282828aa;">: [
+                </span><span style="color:#79740e;">&quot;control&quot;
+            </span><span style="color:#282828aa;">]
+        },
+        </span><span style="color:#79740e;">&quot;type&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;basic&quot;
+    </span><span style="color:#282828aa;">},
+    {
+        </span><span style="color:#79740e;">&quot;from&quot;</span><span style="color:#282828aa;">: {
+            </span><span style="color:#79740e;">&quot;pointing_button&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;button6&quot;
+        </span><span style="color:#282828aa;">},
+        </span><span style="color:#79740e;">&quot;to&quot;</span><span style="color:#282828aa;">: {
+            </span><span style="color:#79740e;">&quot;key_code&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;left_arrow&quot;</span><span style="color:#282828aa;">,
+            </span><span style="color:#79740e;">&quot;modifiers&quot;</span><span style="color:#282828aa;">: [
+                </span><span style="color:#79740e;">&quot;control&quot;
+            </span><span style="color:#282828aa;">]
+        },
+        </span><span style="color:#79740e;">&quot;type&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;basic&quot;
+    </span><span style="color:#282828aa;">}
+</span></code></pre><h2 id="invoke-mission-control">Invoke Mission Control</h2>
+<p>Here, we map a long press to the middle button mouse to launch the mission control view.</p>
+<pre style="background-color:#fcf0ca;">
+<code class="language-json" data-lang="json"><span style="color:#282828aa;">    {
+        </span><span style="color:#79740e;">&quot;from&quot;</span><span style="color:#282828aa;">: {
+            </span><span style="color:#79740e;">&quot;pointing_button&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;button3&quot;
+        </span><span style="color:#282828aa;">},
+        </span><span style="color:#79740e;">&quot;to_if_held_down&quot;</span><span style="color:#282828aa;">: {
+            </span><span style="color:#79740e;">&quot;key_code&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;mission_control&quot;
+        </span><span style="color:#282828aa;">},
+        </span><span style="color:#79740e;">&quot;type&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;basic&quot;
+    </span><span style="color:#282828aa;">},
+
+</span></code></pre>
+<p>Additionnaly, I decreased the time to press on button middle before launching the mission control view.</p>
+<pre style="background-color:#fcf0ca;">
+<code class="language-json" data-lang="json"><span style="color:#282828aa;">    </span><span style="color:#79740e;">&quot;basic.to_if_held_down_threshold_milliseconds&quot;</span><span style="color:#282828aa;">: </span><span style="color:#8f3f71;">300</span><span style="color:#282828aa;">,
+</span></code></pre><h2 id="go-back-or-go-forward">Go back or Go forward</h2>
+<p>Eventually, we map a press to middle button simultaneously used with a press to an edged button to go back or go forward. Mostly, it is useful when using a browser to go back to the previous visited page.</p>
+<pre style="background-color:#fcf0ca;">
+<code class="language-json" data-lang="json"><span style="color:#282828aa;">    {
+        </span><span style="color:#79740e;">&quot;from&quot;</span><span style="color:#282828aa;">: {
+            </span><span style="color:#79740e;">&quot;simultaneous&quot;</span><span style="color:#282828aa;">: [
+                {
+                    </span><span style="color:#79740e;">&quot;pointing_button&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;button3&quot;
+                </span><span style="color:#282828aa;">},
+                {
+                    </span><span style="color:#79740e;">&quot;pointing_button&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;button4&quot;
+                </span><span style="color:#282828aa;">}
+            ]
+        },
+        </span><span style="color:#79740e;">&quot;to&quot;</span><span style="color:#282828aa;">: {
+            </span><span style="color:#79740e;">&quot;key_code&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;right_arrow&quot;</span><span style="color:#282828aa;">,
+            </span><span style="color:#79740e;">&quot;modifiers&quot;</span><span style="color:#282828aa;">: [
+                </span><span style="color:#79740e;">&quot;command&quot;
+            </span><span style="color:#282828aa;">]
+        },
+        </span><span style="color:#79740e;">&quot;type&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;basic&quot;
+    </span><span style="color:#282828aa;">},
+    {
+        </span><span style="color:#79740e;">&quot;from&quot;</span><span style="color:#282828aa;">: {
+            </span><span style="color:#79740e;">&quot;simultaneous&quot;</span><span style="color:#282828aa;">: [
+                {
+                    </span><span style="color:#79740e;">&quot;pointing_button&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;button3&quot;
+                </span><span style="color:#282828aa;">},
+                {
+                    </span><span style="color:#79740e;">&quot;pointing_button&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;button6&quot;
+                </span><span style="color:#282828aa;">}
+            ]
+        },
+        </span><span style="color:#79740e;">&quot;to&quot;</span><span style="color:#282828aa;">: {
+            </span><span style="color:#79740e;">&quot;key_code&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;left_arrow&quot;</span><span style="color:#282828aa;">,
+            </span><span style="color:#79740e;">&quot;modifiers&quot;</span><span style="color:#282828aa;">: [
+                </span><span style="color:#79740e;">&quot;command&quot;
+            </span><span style="color:#282828aa;">]
+        },
+        </span><span style="color:#79740e;">&quot;type&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;basic&quot;
+    </span><span style="color:#282828aa;">},
+</span></code></pre><h2 id="conclusion">Conclusion</h2>
+<p>the complete file is</p>
+<pre style="background-color:#fcf0ca;">
+<code class="language-json" data-lang="json"><span style="color:#282828aa;">{
+    </span><span style="color:#79740e;">&quot;global&quot;</span><span style="color:#282828aa;">: {
+        </span><span style="color:#79740e;">&quot;check_for_updates_on_startup&quot;</span><span style="color:#282828aa;">: </span><span style="color:#8f3f71;">true</span><span style="color:#282828aa;">,
+        </span><span style="color:#79740e;">&quot;show_in_menu_bar&quot;</span><span style="color:#282828aa;">: </span><span style="color:#8f3f71;">true</span><span style="color:#282828aa;">,
+        </span><span style="color:#79740e;">&quot;show_profile_name_in_menu_bar&quot;</span><span style="color:#282828aa;">: </span><span style="color:#8f3f71;">false
+    </span><span style="color:#282828aa;">},
+    </span><span style="color:#79740e;">&quot;profiles&quot;</span><span style="color:#282828aa;">: [
+        {
+            </span><span style="color:#79740e;">&quot;complex_modifications&quot;</span><span style="color:#282828aa;">: {
+                </span><span style="color:#79740e;">&quot;parameters&quot;</span><span style="color:#282828aa;">: {
+                    </span><span style="color:#79740e;">&quot;basic.simultaneous_threshold_milliseconds&quot;</span><span style="color:#282828aa;">: </span><span style="color:#8f3f71;">50</span><span style="color:#282828aa;">,
+                    </span><span style="color:#79740e;">&quot;basic.to_delayed_action_delay_milliseconds&quot;</span><span style="color:#282828aa;">: </span><span style="color:#8f3f71;">500</span><span style="color:#282828aa;">,
+                    </span><span style="color:#79740e;">&quot;basic.to_if_alone_timeout_milliseconds&quot;</span><span style="color:#282828aa;">: </span><span style="color:#8f3f71;">1000</span><span style="color:#282828aa;">,
+                    </span><span style="color:#79740e;">&quot;basic.to_if_held_down_threshold_milliseconds&quot;</span><span style="color:#282828aa;">: </span><span style="color:#8f3f71;">300</span><span style="color:#282828aa;">,
+                    </span><span style="color:#79740e;">&quot;mouse_motion_to_scroll.speed&quot;</span><span style="color:#282828aa;">: </span><span style="color:#8f3f71;">100
+                </span><span style="color:#282828aa;">},
+                </span><span style="color:#79740e;">&quot;rules&quot;</span><span style="color:#282828aa;">: [
+                    {
+                        </span><span style="color:#79740e;">&quot;description&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;Set lower button to back and upper to forward&quot;</span><span style="color:#282828aa;">,
+                        </span><span style="color:#79740e;">&quot;manipulators&quot;</span><span style="color:#282828aa;">: [
+                            {
+                                </span><span style="color:#79740e;">&quot;from&quot;</span><span style="color:#282828aa;">: {
+                                    </span><span style="color:#79740e;">&quot;simultaneous&quot;</span><span style="color:#282828aa;">: [
+                                        {
+                                            </span><span style="color:#79740e;">&quot;pointing_button&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;button3&quot;
+                                        </span><span style="color:#282828aa;">},
+                                        {
+                                            </span><span style="color:#79740e;">&quot;pointing_button&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;button4&quot;
+                                        </span><span style="color:#282828aa;">}
+                                    ]
+                                },
+                                </span><span style="color:#79740e;">&quot;to&quot;</span><span style="color:#282828aa;">: {
+                                    </span><span style="color:#79740e;">&quot;key_code&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;right_arrow&quot;</span><span style="color:#282828aa;">,
+                                    </span><span style="color:#79740e;">&quot;modifiers&quot;</span><span style="color:#282828aa;">: [
+                                        </span><span style="color:#79740e;">&quot;command&quot;
+                                    </span><span style="color:#282828aa;">]
+                                },
+                                </span><span style="color:#79740e;">&quot;type&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;basic&quot;
+                            </span><span style="color:#282828aa;">},
+                            {
+                                </span><span style="color:#79740e;">&quot;from&quot;</span><span style="color:#282828aa;">: {
+                                    </span><span style="color:#79740e;">&quot;simultaneous&quot;</span><span style="color:#282828aa;">: [
+                                        {
+                                            </span><span style="color:#79740e;">&quot;pointing_button&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;button3&quot;
+                                        </span><span style="color:#282828aa;">},
+                                        {
+                                            </span><span style="color:#79740e;">&quot;pointing_button&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;button6&quot;
+                                        </span><span style="color:#282828aa;">}
+                                    ]
+                                },
+                                </span><span style="color:#79740e;">&quot;to&quot;</span><span style="color:#282828aa;">: {
+                                    </span><span style="color:#79740e;">&quot;key_code&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;left_arrow&quot;</span><span style="color:#282828aa;">,
+                                    </span><span style="color:#79740e;">&quot;modifiers&quot;</span><span style="color:#282828aa;">: [
+                                        </span><span style="color:#79740e;">&quot;command&quot;
+                                    </span><span style="color:#282828aa;">]
+                                },
+                                </span><span style="color:#79740e;">&quot;type&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;basic&quot;
+                            </span><span style="color:#282828aa;">},
+                            {
+                                </span><span style="color:#79740e;">&quot;from&quot;</span><span style="color:#282828aa;">: {
+                                    </span><span style="color:#79740e;">&quot;pointing_button&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;button3&quot;
+                                </span><span style="color:#282828aa;">},
+                                </span><span style="color:#79740e;">&quot;to_if_held_down&quot;</span><span style="color:#282828aa;">: {
+                                    </span><span style="color:#79740e;">&quot;key_code&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;mission_control&quot;
+                                </span><span style="color:#282828aa;">},
+                                </span><span style="color:#79740e;">&quot;type&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;basic&quot;
+                            </span><span style="color:#282828aa;">},
+                            {
+                                </span><span style="color:#79740e;">&quot;from&quot;</span><span style="color:#282828aa;">: {
+                                    </span><span style="color:#79740e;">&quot;pointing_button&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;button4&quot;
+                                </span><span style="color:#282828aa;">},
+                                </span><span style="color:#79740e;">&quot;to&quot;</span><span style="color:#282828aa;">: {
+                                    </span><span style="color:#79740e;">&quot;key_code&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;right_arrow&quot;</span><span style="color:#282828aa;">,
+                                    </span><span style="color:#79740e;">&quot;modifiers&quot;</span><span style="color:#282828aa;">: [
+                                        </span><span style="color:#79740e;">&quot;control&quot;
+                                    </span><span style="color:#282828aa;">]
+                                },
+                                </span><span style="color:#79740e;">&quot;type&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;basic&quot;
+                            </span><span style="color:#282828aa;">},
+                            {
+                                </span><span style="color:#79740e;">&quot;from&quot;</span><span style="color:#282828aa;">: {
+                                    </span><span style="color:#79740e;">&quot;pointing_button&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;button6&quot;
+                                </span><span style="color:#282828aa;">},
+                                </span><span style="color:#79740e;">&quot;to&quot;</span><span style="color:#282828aa;">: {
+                                    </span><span style="color:#79740e;">&quot;key_code&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;left_arrow&quot;</span><span style="color:#282828aa;">,
+                                    </span><span style="color:#79740e;">&quot;modifiers&quot;</span><span style="color:#282828aa;">: [
+                                        </span><span style="color:#79740e;">&quot;control&quot;
+                                    </span><span style="color:#282828aa;">]
+                                },
+                                </span><span style="color:#79740e;">&quot;type&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;basic&quot;
+                            </span><span style="color:#282828aa;">}
+                        ]
+                    }
+                ]
+            },
+            </span><span style="color:#79740e;">&quot;devices&quot;</span><span style="color:#282828aa;">: [
+                {
+                    </span><span style="color:#79740e;">&quot;disable_built_in_keyboard_if_exists&quot;</span><span style="color:#282828aa;">: </span><span style="color:#8f3f71;">false</span><span style="color:#282828aa;">,
+                    </span><span style="color:#79740e;">&quot;fn_function_keys&quot;</span><span style="color:#282828aa;">: [],
+                    </span><span style="color:#79740e;">&quot;identifiers&quot;</span><span style="color:#282828aa;">: {
+                        </span><span style="color:#79740e;">&quot;is_keyboard&quot;</span><span style="color:#282828aa;">: </span><span style="color:#8f3f71;">false</span><span style="color:#282828aa;">,
+                        </span><span style="color:#79740e;">&quot;is_pointing_device&quot;</span><span style="color:#282828aa;">: </span><span style="color:#8f3f71;">true</span><span style="color:#282828aa;">,
+                        </span><span style="color:#79740e;">&quot;product_id&quot;</span><span style="color:#282828aa;">: </span><span style="color:#8f3f71;">401</span><span style="color:#282828aa;">,
+                        </span><span style="color:#79740e;">&quot;vendor_id&quot;</span><span style="color:#282828aa;">: </span><span style="color:#8f3f71;">6780
+                    </span><span style="color:#282828aa;">},
+                    </span><span style="color:#79740e;">&quot;ignore&quot;</span><span style="color:#282828aa;">: </span><span style="color:#8f3f71;">false</span><span style="color:#282828aa;">,
+                    </span><span style="color:#79740e;">&quot;manipulate_caps_lock_led&quot;</span><span style="color:#282828aa;">: </span><span style="color:#8f3f71;">false</span><span style="color:#282828aa;">,
+                    </span><span style="color:#79740e;">&quot;simple_modifications&quot;</span><span style="color:#282828aa;">: []
+                },
+                {
+                    </span><span style="color:#79740e;">&quot;disable_built_in_keyboard_if_exists&quot;</span><span style="color:#282828aa;">: </span><span style="color:#8f3f71;">false</span><span style="color:#282828aa;">,
+                    </span><span style="color:#79740e;">&quot;fn_function_keys&quot;</span><span style="color:#282828aa;">: [],
+                    </span><span style="color:#79740e;">&quot;identifiers&quot;</span><span style="color:#282828aa;">: {
+                        </span><span style="color:#79740e;">&quot;is_keyboard&quot;</span><span style="color:#282828aa;">: </span><span style="color:#8f3f71;">true</span><span style="color:#282828aa;">,
+                        </span><span style="color:#79740e;">&quot;is_pointing_device&quot;</span><span style="color:#282828aa;">: </span><span style="color:#8f3f71;">false</span><span style="color:#282828aa;">,
+                        </span><span style="color:#79740e;">&quot;product_id&quot;</span><span style="color:#282828aa;">: </span><span style="color:#8f3f71;">615</span><span style="color:#282828aa;">,
+                        </span><span style="color:#79740e;">&quot;vendor_id&quot;</span><span style="color:#282828aa;">: </span><span style="color:#8f3f71;">76
+                    </span><span style="color:#282828aa;">},
+                    </span><span style="color:#79740e;">&quot;ignore&quot;</span><span style="color:#282828aa;">: </span><span style="color:#8f3f71;">true</span><span style="color:#282828aa;">,
+                    </span><span style="color:#79740e;">&quot;manipulate_caps_lock_led&quot;</span><span style="color:#282828aa;">: </span><span style="color:#8f3f71;">true</span><span style="color:#282828aa;">,
+                    </span><span style="color:#79740e;">&quot;simple_modifications&quot;</span><span style="color:#282828aa;">: []
+                },
+                {
+                    </span><span style="color:#79740e;">&quot;disable_built_in_keyboard_if_exists&quot;</span><span style="color:#282828aa;">: </span><span style="color:#8f3f71;">false</span><span style="color:#282828aa;">,
+                    </span><span style="color:#79740e;">&quot;fn_function_keys&quot;</span><span style="color:#282828aa;">: [],
+                    </span><span style="color:#79740e;">&quot;identifiers&quot;</span><span style="color:#282828aa;">: {
+                        </span><span style="color:#79740e;">&quot;is_keyboard&quot;</span><span style="color:#282828aa;">: </span><span style="color:#8f3f71;">true</span><span style="color:#282828aa;">,
+                        </span><span style="color:#79740e;">&quot;is_pointing_device&quot;</span><span style="color:#282828aa;">: </span><span style="color:#8f3f71;">false</span><span style="color:#282828aa;">,
+                        </span><span style="color:#79740e;">&quot;product_id&quot;</span><span style="color:#282828aa;">: </span><span style="color:#8f3f71;">34304</span><span style="color:#282828aa;">,
+                        </span><span style="color:#79740e;">&quot;vendor_id&quot;</span><span style="color:#282828aa;">: </span><span style="color:#8f3f71;">1452
+                    </span><span style="color:#282828aa;">},
+                    </span><span style="color:#79740e;">&quot;ignore&quot;</span><span style="color:#282828aa;">: </span><span style="color:#8f3f71;">true</span><span style="color:#282828aa;">,
+                    </span><span style="color:#79740e;">&quot;manipulate_caps_lock_led&quot;</span><span style="color:#282828aa;">: </span><span style="color:#8f3f71;">true</span><span style="color:#282828aa;">,
+                    </span><span style="color:#79740e;">&quot;simple_modifications&quot;</span><span style="color:#282828aa;">: []
+                },
+                {
+                    </span><span style="color:#79740e;">&quot;disable_built_in_keyboard_if_exists&quot;</span><span style="color:#282828aa;">: </span><span style="color:#8f3f71;">false</span><span style="color:#282828aa;">,
+                    </span><span style="color:#79740e;">&quot;fn_function_keys&quot;</span><span style="color:#282828aa;">: [],
+                    </span><span style="color:#79740e;">&quot;identifiers&quot;</span><span style="color:#282828aa;">: {
+                        </span><span style="color:#79740e;">&quot;is_keyboard&quot;</span><span style="color:#282828aa;">: </span><span style="color:#8f3f71;">true</span><span style="color:#282828aa;">,
+                        </span><span style="color:#79740e;">&quot;is_pointing_device&quot;</span><span style="color:#282828aa;">: </span><span style="color:#8f3f71;">false</span><span style="color:#282828aa;">,
+                        </span><span style="color:#79740e;">&quot;product_id&quot;</span><span style="color:#282828aa;">: </span><span style="color:#8f3f71;">636</span><span style="color:#282828aa;">,
+                        </span><span style="color:#79740e;">&quot;vendor_id&quot;</span><span style="color:#282828aa;">: </span><span style="color:#8f3f71;">1452
+                    </span><span style="color:#282828aa;">},
+                    </span><span style="color:#79740e;">&quot;ignore&quot;</span><span style="color:#282828aa;">: </span><span style="color:#8f3f71;">true</span><span style="color:#282828aa;">,
+                    </span><span style="color:#79740e;">&quot;manipulate_caps_lock_led&quot;</span><span style="color:#282828aa;">: </span><span style="color:#8f3f71;">true</span><span style="color:#282828aa;">,
+                    </span><span style="color:#79740e;">&quot;simple_modifications&quot;</span><span style="color:#282828aa;">: []
+                }
+            ],
+            </span><span style="color:#79740e;">&quot;fn_function_keys&quot;</span><span style="color:#282828aa;">: [
+                {
+                    </span><span style="color:#79740e;">&quot;from&quot;</span><span style="color:#282828aa;">: {
+                        </span><span style="color:#79740e;">&quot;key_code&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;f1&quot;
+                    </span><span style="color:#282828aa;">},
+                    </span><span style="color:#79740e;">&quot;to&quot;</span><span style="color:#282828aa;">: {
+                        </span><span style="color:#79740e;">&quot;consumer_key_code&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;display_brightness_decrement&quot;
+                    </span><span style="color:#282828aa;">}
+                },
+                {
+                    </span><span style="color:#79740e;">&quot;from&quot;</span><span style="color:#282828aa;">: {
+                        </span><span style="color:#79740e;">&quot;key_code&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;f2&quot;
+                    </span><span style="color:#282828aa;">},
+                    </span><span style="color:#79740e;">&quot;to&quot;</span><span style="color:#282828aa;">: {
+                        </span><span style="color:#79740e;">&quot;consumer_key_code&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;display_brightness_increment&quot;
+                    </span><span style="color:#282828aa;">}
+                },
+                {
+                    </span><span style="color:#79740e;">&quot;from&quot;</span><span style="color:#282828aa;">: {
+                        </span><span style="color:#79740e;">&quot;key_code&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;f3&quot;
+                    </span><span style="color:#282828aa;">},
+                    </span><span style="color:#79740e;">&quot;to&quot;</span><span style="color:#282828aa;">: {
+                        </span><span style="color:#79740e;">&quot;key_code&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;mission_control&quot;
+                    </span><span style="color:#282828aa;">}
+                },
+                {
+                    </span><span style="color:#79740e;">&quot;from&quot;</span><span style="color:#282828aa;">: {
+                        </span><span style="color:#79740e;">&quot;key_code&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;f4&quot;
+                    </span><span style="color:#282828aa;">},
+                    </span><span style="color:#79740e;">&quot;to&quot;</span><span style="color:#282828aa;">: {
+                        </span><span style="color:#79740e;">&quot;key_code&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;launchpad&quot;
+                    </span><span style="color:#282828aa;">}
+                },
+                {
+                    </span><span style="color:#79740e;">&quot;from&quot;</span><span style="color:#282828aa;">: {
+                        </span><span style="color:#79740e;">&quot;key_code&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;f5&quot;
+                    </span><span style="color:#282828aa;">},
+                    </span><span style="color:#79740e;">&quot;to&quot;</span><span style="color:#282828aa;">: {
+                        </span><span style="color:#79740e;">&quot;key_code&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;illumination_decrement&quot;
+                    </span><span style="color:#282828aa;">}
+                },
+                {
+                    </span><span style="color:#79740e;">&quot;from&quot;</span><span style="color:#282828aa;">: {
+                        </span><span style="color:#79740e;">&quot;key_code&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;f6&quot;
+                    </span><span style="color:#282828aa;">},
+                    </span><span style="color:#79740e;">&quot;to&quot;</span><span style="color:#282828aa;">: {
+                        </span><span style="color:#79740e;">&quot;key_code&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;illumination_increment&quot;
+                    </span><span style="color:#282828aa;">}
+                },
+                {
+                    </span><span style="color:#79740e;">&quot;from&quot;</span><span style="color:#282828aa;">: {
+                        </span><span style="color:#79740e;">&quot;key_code&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;f7&quot;
+                    </span><span style="color:#282828aa;">},
+                    </span><span style="color:#79740e;">&quot;to&quot;</span><span style="color:#282828aa;">: {
+                        </span><span style="color:#79740e;">&quot;consumer_key_code&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;rewind&quot;
+                    </span><span style="color:#282828aa;">}
+                },
+                {
+                    </span><span style="color:#79740e;">&quot;from&quot;</span><span style="color:#282828aa;">: {
+                        </span><span style="color:#79740e;">&quot;key_code&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;f8&quot;
+                    </span><span style="color:#282828aa;">},
+                    </span><span style="color:#79740e;">&quot;to&quot;</span><span style="color:#282828aa;">: {
+                        </span><span style="color:#79740e;">&quot;consumer_key_code&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;play_or_pause&quot;
+                    </span><span style="color:#282828aa;">}
+                },
+                {
+                    </span><span style="color:#79740e;">&quot;from&quot;</span><span style="color:#282828aa;">: {
+                        </span><span style="color:#79740e;">&quot;key_code&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;f9&quot;
+                    </span><span style="color:#282828aa;">},
+                    </span><span style="color:#79740e;">&quot;to&quot;</span><span style="color:#282828aa;">: {
+                        </span><span style="color:#79740e;">&quot;consumer_key_code&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;fast_forward&quot;
+                    </span><span style="color:#282828aa;">}
+                },
+                {
+                    </span><span style="color:#79740e;">&quot;from&quot;</span><span style="color:#282828aa;">: {
+                        </span><span style="color:#79740e;">&quot;key_code&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;f10&quot;
+                    </span><span style="color:#282828aa;">},
+                    </span><span style="color:#79740e;">&quot;to&quot;</span><span style="color:#282828aa;">: {
+                        </span><span style="color:#79740e;">&quot;consumer_key_code&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;mute&quot;
+                    </span><span style="color:#282828aa;">}
+                },
+                {
+                    </span><span style="color:#79740e;">&quot;from&quot;</span><span style="color:#282828aa;">: {
+                        </span><span style="color:#79740e;">&quot;key_code&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;f11&quot;
+                    </span><span style="color:#282828aa;">},
+                    </span><span style="color:#79740e;">&quot;to&quot;</span><span style="color:#282828aa;">: {
+                        </span><span style="color:#79740e;">&quot;consumer_key_code&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;volume_decrement&quot;
+                    </span><span style="color:#282828aa;">}
+                },
+                {
+                    </span><span style="color:#79740e;">&quot;from&quot;</span><span style="color:#282828aa;">: {
+                        </span><span style="color:#79740e;">&quot;key_code&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;f12&quot;
+                    </span><span style="color:#282828aa;">},
+                    </span><span style="color:#79740e;">&quot;to&quot;</span><span style="color:#282828aa;">: {
+                        </span><span style="color:#79740e;">&quot;consumer_key_code&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;volume_increment&quot;
+                    </span><span style="color:#282828aa;">}
+                }
+            ],
+            </span><span style="color:#79740e;">&quot;name&quot;</span><span style="color:#282828aa;">: </span><span style="color:#79740e;">&quot;Default profile&quot;</span><span style="color:#282828aa;">,
+            </span><span style="color:#79740e;">&quot;parameters&quot;</span><span style="color:#282828aa;">: {
+                </span><span style="color:#79740e;">&quot;delay_milliseconds_before_open_device&quot;</span><span style="color:#282828aa;">: </span><span style="color:#8f3f71;">1000
+            </span><span style="color:#282828aa;">},
+            </span><span style="color:#79740e;">&quot;selected&quot;</span><span style="color:#282828aa;">: </span><span style="color:#8f3f71;">true</span><span style="color:#282828aa;">,
+            </span><span style="color:#79740e;">&quot;simple_modifications&quot;</span><span style="color:#282828aa;">: [],
+            </span><span style="color:#79740e;">&quot;virtual_hid_keyboard&quot;</span><span style="color:#282828aa;">: {
+                </span><span style="color:#79740e;">&quot;country_code&quot;</span><span style="color:#282828aa;">: </span><span style="color:#8f3f71;">0</span><span style="color:#282828aa;">,
+                </span><span style="color:#79740e;">&quot;mouse_key_xy_scale&quot;</span><span style="color:#282828aa;">: </span><span style="color:#8f3f71;">100
+            </span><span style="color:#282828aa;">}
+        }
+    ]
+}
+</span></code></pre>
+
+</article>
+
+  <hr />
+  <p>
+  <script src="https://utteranc.es/client.js" repo="lachhebo/lachhebo.github.io" issue-term="title" theme="github-light"
+    crossorigin="anonymous" async>
+    </script>
+  </p>
+
+
+
+
+      
+      <footer role="contentinfo">
+        <hr />
+        
+        <nav style="margin-bottom:1rem;" role="navigation">
+          
+            <a href="https://ismaellachheb.fr/about">about</a>
+            
+              <span>&middot;</span>
+            
+          
+            <a href="https://ismaellachheb.fr/atom.xml">rss</a>
+            
+              <span>&middot;</span>
+            
+          
+            <a href="https://github.com/lachhebo">github</a>
+            
+              <span>&middot;</span>
+            
+          
+            <a href="https://twitter.com/lachhebo7">twitter</a>
+            
+          
+        </nav>
+        
+        
+        <small>
+          
+          
+        </small>
+        
+      </footer>
+      
+
+    </main>
+    
+    
+  </body>
+</html>
+

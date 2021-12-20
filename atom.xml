@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>isma&#x27;s hut</title>
+	<subtitle>Bloging about ML, FOSS and green IT</subtitle>
+	<link href="https://ismaellachheb.fr/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://ismaellachheb.fr"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2021-12-20T00:00:00+00:00</updated>
+	<id>https://ismaellachheb.fr/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Dictial - privacy</title>
+		<published>2021-12-20T00:00:00+00:00</published>
+		<updated>2021-12-20T00:00:00+00:00</updated>
+		<link href="https://ismaellachheb.fr/dictial-privacy/" type="text/html"/>
+		<id>https://ismaellachheb.fr/dictial-privacy/</id>
+		<content type="html">&lt;p&gt;Je soussigné Monsieur Lachheb Ismaïl, exerçant les fonctions de Développeur au sein de la société Klanalk (ci-après dénommée « la Société »), étant à ce titre amené&#x2F;e à accéder à des données à caractère personnel, déclare reconnaître la confidentialité desdites données.
+Je m’engage par conséquent, conformément aux articles 34 et 35 de la loi du 6 janvier 1978 modifiée relative à l’informatique, aux fichiers et aux libertés ainsi qu’aux articles 32 à 35 du règlement général sur la protection des données du 27 avril 2016, à prendre toutes précautions conformes aux usages et à l’état de l’art dans le cadre de mes attributions afin de protéger la confidentialité des informations auxquelles j’ai accès, et en particulier d’empêcher qu’elles ne soient communiquées à des personnes non expressément autorisées à recevoir ces informations.&lt;&#x2F;p&gt;
+&lt;p&gt;Je m’engage en particulier à :&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;ne pas utiliser les données auxquelles je peux accéder à des fins autres que celles prévues par mes attributions ;&lt;&#x2F;li&gt;
+&lt;li&gt;ne divulguer ces données qu’aux personnes dûment autorisées, en raison de leurs fonctions, à en recevoir communication, qu’il s’agisse de personnes privées, publiques, physiques ou morales ;&lt;&#x2F;li&gt;
+&lt;li&gt;ne faire aucune copie de ces données sauf à ce que cela soit nécessaire à l’exécution de mes fonctions ;&lt;&#x2F;li&gt;
+&lt;li&gt;prendre toutes les mesures conformes aux usages et à l’état de l’art dans le cadre de mes attributions afin d’éviter l’utilisation détournée ou frauduleuse de ces données ;
+prendre toutes précautions conformes aux usages et à l’état de l’art pour préserver la sécurité physique et logique de ces données ;&lt;&#x2F;li&gt;
+&lt;li&gt;m’assurer, dans la limite de mes attributions, que seuls des moyens de communication sécurisés seront utilisés pour transférer ces données ;
+en cas de cessation de mes fonctions, restituer intégralement les données, fichiers informatiques et tout support d’information relatif à ces données.&lt;&#x2F;li&gt;
+&lt;li&gt;Cet engagement de confidentialité, en vigueur pendant toute la durée de mes fonctions, demeurera effectif, sans limitation de durée après la cessation de mes fonctions, quelle qu’en soit la cause, dès lors que cet engagement concerne l’utilisation et la communication de données à caractère personnel.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;J’ai été informé que toute violation du présent engagement m’expose à des sanctions disciplinaires et pénales conformément à la réglementation en vigueur, notamment au regard des articles 226-16 à 226-24 du code pénal.&lt;&#x2F;p&gt;
+&lt;p&gt;Fait à Vincennes, le 20&#x2F;12&#x2F;2021,&lt;&#x2F;p&gt;
+&lt;p&gt;Ismaïl Lachheb&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Dictial</title>
+		<published>2021-12-20T00:00:00+00:00</published>
+		<updated>2021-12-20T00:00:00+00:00</updated>
+		<link href="https://ismaellachheb.fr/dictial/" type="text/html"/>
+		<id>https://ismaellachheb.fr/dictial/</id>
+		<content type="html">&lt;p&gt;Améliorer votre niveau en français tout en vous amusant grâce à Dictial.&lt;&#x2F;p&gt;
+&lt;p&gt;Dictial vous permet de vous mesurer à une vaste collection de dictées. Vous pouvez:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;améliorer votre expression écrite en français&lt;&#x2F;li&gt;
+&lt;li&gt;découvrir des chefs-d’œuvre de la littérature&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Amusez vous bien !&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;contact&quot;&gt;contact&lt;&#x2F;h2&gt;
+&lt;p&gt;Pour obtenir de l&#x27;aide, ou de l&#x27;assistance, des questions, mon addresse email est:&lt;&#x2F;p&gt;
+&lt;p&gt;ismael.lachheb@protonmail.com&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>designing a lighweight   blog using github pages, zola and ovh</title>
+		<published>2021-03-14T00:00:00+00:00</published>
+		<updated>2021-03-14T00:00:00+00:00</updated>
+		<link href="https://ismaellachheb.fr/design-website/" type="text/html"/>
+		<id>https://ismaellachheb.fr/design-website/</id>
+		<content type="html">&lt;p&gt;This blog is actually quite old, the first version was created in 2019, but I recently felt the need for using a more lightweight blog. This urge is probably caused by the recent trend for &lt;strong&gt;minimalism&lt;&#x2F;strong&gt;, as websites bloated with animations actualy don&#x27;t impress me anymore.&lt;&#x2F;p&gt;
+&lt;p&gt;&#x27;&lt;em&gt;Perfection is reached not when there is nothing more to add, but when there is nothing more to remove.&lt;&#x2F;em&gt;&#x27;
+Antoine de Saint Expuréry.&lt;&#x2F;p&gt;
+&lt;p&gt;The size of a webpage increased by 3x in the last 10 years in average, meaning slower surf speed for users, more memory and CPU consumption, this incentivize users to buy new hardware more quickly. As a consequence, the carbon impact of poorly designed website is not negligible.&lt;&#x2F;p&gt;
+&lt;p&gt;Besides, I want to use simpler tools, so that I may have a better grasp of my actions at the lower level. Also, I want a custom domain name as well as a comment fonctionnality.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;finding-a-better-ssg&quot;&gt;Finding a better SSG&lt;&#x2F;h2&gt;
+&lt;p&gt;Over the last years i have used &lt;a href=&quot;https:&#x2F;&#x2F;jekyllrb.com&#x2F;&quot;&gt;jekyll&lt;&#x2F;a&gt;. It is a great tool that works well with Github (developed by the Github team). Yet, I was never quite satisfied with jekyll. Because Jekyll is written in Ruby (btw not a performance oriented language), I had to deal with dependency management. Moreover, jekyll seems to use too many abstractions for a simple blog.&lt;&#x2F;p&gt;
+&lt;p&gt;The first alternative to Jekyll I wanted to use was &lt;a href=&quot;https:&#x2F;&#x2F;www.romanzolotarev.com&#x2F;ssg.html&quot;&gt;ssg5&lt;&#x2F;a&gt;, a SSG written in posix shell, to use it with markdown posts, I installed a C library (lowdown) on my system. ssg5&#x27;s codebase is quite small (less than 1000 lines of code) but it &lt;strong&gt;wasn&#x27;t rigorously maintained&lt;&#x2F;strong&gt;. Hence, it was not compatible with the latest version of lowdown, the C library used to handle markdown file.&lt;&#x2F;p&gt;
+&lt;p&gt;Hence, I looked at &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;sunainapai&#x2F;makesite&quot;&gt;makesite.py&lt;&#x2F;a&gt;, a small python script (130 lines of code) which handles everything for the users. Makesite is a very good solution that will satisfy most users. The code serves as documentation and the users can easily understand how makesite works. However, I wanted to try a similar tool, written with another language.&lt;&#x2F;p&gt;
+&lt;p&gt;Eventually, I ended up using &lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;&quot;&gt;Zola&lt;&#x2F;a&gt;, a SSG written in rust. It comes as a simple binary executable (no dependencies), is simple (in both lines of code and in usage) and it has a great documentation. Last but not least, it feels much more &lt;strong&gt;snappy&lt;&#x2F;strong&gt; than Jekyll.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;creating-a-simpler-website&quot;&gt;Creating a simpler website&lt;&#x2F;h2&gt;
+&lt;p&gt;The key to create a lightweight website is to :&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;remove all javascript&lt;&#x2F;li&gt;
+&lt;li&gt;having the smallest amount of css involved&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;I have choosen to start from a theme called &lt;strong&gt;lightspeed&lt;&#x2F;strong&gt;, which is optimised to be as lightweight as possible. I did a bit of configuration over it and my website was ready.&lt;&#x2F;p&gt;
+&lt;p&gt;Using OVH, I bought the domain name &lt;em&gt;&#x27;ismael.lachheb.com&#x27;&lt;&#x2F;em&gt; instead of using the Github default one with OVH. I set up the DNS with &lt;em&gt;A name&lt;&#x2F;em&gt; using the github servers&#x27; addresses (185.199.[108-109-110-111].153).&lt;&#x2F;p&gt;
+&lt;img height=&quot;350&quot; src=&quot;https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;lachhebo&#x2F;lachhebo.github.io&#x2F;screenshots&#x2F;ovh_dns_show.png&quot; &#x2F;&gt;
+&lt;p&gt;It was not enough for my website to correctly works. Every time a new article was published to the website. Github was serving the website to the address &lt;em&gt;lachhebo.github.com&lt;&#x2F;em&gt;, the default address and not my custom domain name. Eventually, in the repository, I fixed this issue by adding a CNAME file containing the name of my website &lt;em&gt;ismaellachheb.com&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Last step, to allow users to write comments on the blog, I did not want to use a server to save the comments. The simplest solution I found using open source solution was to use &lt;a href=&quot;https:&#x2F;&#x2F;utteranc.es&#x2F;&quot;&gt;utteranc.es&lt;&#x2F;a&gt;. It allows user to publish comments on my blog using their Github account. It uses javascript to scrap the data from the Github API.&lt;&#x2F;p&gt;
+&lt;p&gt;This small script is enough to link the Github repository containing the comments to my website.&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#fcf0ca;&quot;&gt;
+&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span style=&quot;color:#b23c15;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828;&quot;&gt;script src&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b23c15;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;https:&#x2F;&#x2F;utteranc.es&#x2F;client.js&amp;quot;
+        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828;&quot;&gt;repo&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b23c15;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;lachhebo&#x2F;lachhebo.github.io&amp;quot;
+        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828;&quot;&gt;issue&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b23c15;&quot;&gt;-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828;&quot;&gt;term&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b23c15;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;title&amp;quot; 
+        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828;&quot;&gt;theme&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b23c15;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;github-light&amp;quot;
+        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828;&quot;&gt;crossorigin&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b23c15;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;anonymous&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828;&quot;&gt;async&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b23c15;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#407959;&quot;&gt;script&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Actually, each article is automatically linked to an issue with my blog github repository. As I think most people looking at my dev blog will have a github account, I think it is a great idea.&lt;&#x2F;p&gt;
+&lt;p&gt;At the end of the day, I am really happy with the result ! 🥳&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>setup an Evoluent Vertical Mouse on macos</title>
+		<published>2020-12-16T00:00:00+00:00</published>
+		<updated>2020-12-16T00:00:00+00:00</updated>
+		<link href="https://ismaellachheb.fr/setup-evoluent-mouse-for-macos/" type="text/html"/>
+		<id>https://ismaellachheb.fr/setup-evoluent-mouse-for-macos/</id>
+		<content type="html">&lt;p&gt;The Evoluent Vertical mouse is probably one of the best vertical mouses on the market and I could easily advise you to use it if your interested in this kind of products. However, Evoluent team was not able to develop macOS driver for the mouse. So by default, we can&#x27;t remap the mutliple buttons of the mouse. Thanskfully the open source community developed a program for macOS called &lt;a href=&quot;https:&#x2F;&#x2F;karabiner-elements.pqrs.org&#x2F;&quot;&gt;Karabiner&lt;&#x2F;a&gt; which can do wonders here. You can easily install it and then use the configuration file below to use the evoluent mouse with my configuration.&lt;&#x2F;p&gt;
+&lt;p&gt;My config file for karabiner can be downloaded through this link &lt;a href=&quot;https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;lachhebo&#x2F;lachhebo.github.io&#x2F;screenshots&#x2F;download&#x2F;karabiner.json&quot; download&gt;karabiner.json&lt;&#x2F;a&gt;. Put it here &lt;em&gt;~&#x2F;config&#x2F;karabiner&#x2F;karabiner.json&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Below, I go more in depth about how I configured the mouse.&lt;&#x2F;p&gt;
+&lt;img height=&quot;350&quot; src=&quot;https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;lachhebo&#x2F;lachhebo.github.io&#x2F;screenshots&#x2F;evoluent_mouse.jpg&quot; &#x2F;&gt;
+&lt;h2 id=&quot;switch-between-workspace&quot;&gt;Switch between workspace&lt;&#x2F;h2&gt;
+&lt;p&gt;The first rule to add to make the mouse tolerable in macOS is the rule allowing switching between workspaces, just like you can do using a macbook trackpad. Hence, we are mapping a press to the edge button to switch to left or right workspace.&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#fcf0ca;&quot;&gt;
+&lt;code class=&quot;language-json&quot; data-lang=&quot;json&quot;&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;    {
+        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;from&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: {
+            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;pointing_button&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;button4&amp;quot;
+        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;},
+        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;to&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: {
+            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;key_code&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;right_arrow&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;,
+            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;modifiers&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: [
+                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;control&amp;quot;
+            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;]
+        },
+        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;type&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;basic&amp;quot;
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;},
+    {
+        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;from&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: {
+            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;pointing_button&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;button6&amp;quot;
+        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;},
+        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;to&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: {
+            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;key_code&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;left_arrow&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;,
+            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;modifiers&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: [
+                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;control&amp;quot;
+            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;]
+        },
+        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;type&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;basic&amp;quot;
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;h2 id=&quot;invoke-mission-control&quot;&gt;Invoke Mission Control&lt;&#x2F;h2&gt;
+&lt;p&gt;Here, we map a long press to the middle button mouse to launch the mission control view.&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#fcf0ca;&quot;&gt;
+&lt;code class=&quot;language-json&quot; data-lang=&quot;json&quot;&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;    {
+        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;from&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: {
+            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;pointing_button&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;button3&amp;quot;
+        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;},
+        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;to_if_held_down&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: {
+            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;key_code&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;mission_control&amp;quot;
+        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;},
+        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;type&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;basic&amp;quot;
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;},
+
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Additionnaly, I decreased the time to press on button middle before launching the mission control view.&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#fcf0ca;&quot;&gt;
+&lt;code class=&quot;language-json&quot; data-lang=&quot;json&quot;&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;basic.to_if_held_down_threshold_milliseconds&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8f3f71;&quot;&gt;300&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;,
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;h2 id=&quot;go-back-or-go-forward&quot;&gt;Go back or Go forward&lt;&#x2F;h2&gt;
+&lt;p&gt;Eventually, we map a press to middle button simultaneously used with a press to an edged button to go back or go forward. Mostly, it is useful when using a browser to go back to the previous visited page.&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#fcf0ca;&quot;&gt;
+&lt;code class=&quot;language-json&quot; data-lang=&quot;json&quot;&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;    {
+        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;from&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: {
+            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;simultaneous&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: [
+                {
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;pointing_button&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;button3&amp;quot;
+                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;},
+                {
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;pointing_button&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;button4&amp;quot;
+                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;}
+            ]
+        },
+        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;to&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: {
+            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;key_code&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;right_arrow&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;,
+            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;modifiers&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: [
+                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;command&amp;quot;
+            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;]
+        },
+        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;type&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;basic&amp;quot;
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;},
+    {
+        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;from&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: {
+            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;simultaneous&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: [
+                {
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;pointing_button&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;button3&amp;quot;
+                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;},
+                {
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;pointing_button&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;button6&amp;quot;
+                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;}
+            ]
+        },
+        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;to&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: {
+            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;key_code&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;left_arrow&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;,
+            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;modifiers&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: [
+                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;command&amp;quot;
+            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;]
+        },
+        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;type&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;basic&amp;quot;
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;},
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;&#x2F;h2&gt;
+&lt;p&gt;the complete file is&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#fcf0ca;&quot;&gt;
+&lt;code class=&quot;language-json&quot; data-lang=&quot;json&quot;&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;{
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;global&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: {
+        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;check_for_updates_on_startup&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8f3f71;&quot;&gt;true&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;,
+        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;show_in_menu_bar&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8f3f71;&quot;&gt;true&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;,
+        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;show_profile_name_in_menu_bar&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8f3f71;&quot;&gt;false
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;},
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;profiles&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: [
+        {
+            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;complex_modifications&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: {
+                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;parameters&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: {
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;basic.simultaneous_threshold_milliseconds&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8f3f71;&quot;&gt;50&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;,
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;basic.to_delayed_action_delay_milliseconds&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8f3f71;&quot;&gt;500&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;,
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;basic.to_if_alone_timeout_milliseconds&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8f3f71;&quot;&gt;1000&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;,
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;basic.to_if_held_down_threshold_milliseconds&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8f3f71;&quot;&gt;300&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;,
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;mouse_motion_to_scroll.speed&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8f3f71;&quot;&gt;100
+                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;},
+                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;rules&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: [
+                    {
+                        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;description&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;Set lower button to back and upper to forward&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;,
+                        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;manipulators&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: [
+                            {
+                                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;from&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: {
+                                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;simultaneous&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: [
+                                        {
+                                            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;pointing_button&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;button3&amp;quot;
+                                        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;},
+                                        {
+                                            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;pointing_button&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;button4&amp;quot;
+                                        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;}
+                                    ]
+                                },
+                                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;to&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: {
+                                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;key_code&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;right_arrow&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;,
+                                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;modifiers&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: [
+                                        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;command&amp;quot;
+                                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;]
+                                },
+                                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;type&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;basic&amp;quot;
+                            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;},
+                            {
+                                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;from&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: {
+                                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;simultaneous&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: [
+                                        {
+                                            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;pointing_button&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;button3&amp;quot;
+                                        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;},
+                                        {
+                                            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;pointing_button&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;button6&amp;quot;
+                                        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;}
+                                    ]
+                                },
+                                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;to&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: {
+                                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;key_code&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;left_arrow&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;,
+                                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;modifiers&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: [
+                                        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;command&amp;quot;
+                                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;]
+                                },
+                                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;type&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;basic&amp;quot;
+                            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;},
+                            {
+                                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;from&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: {
+                                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;pointing_button&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;button3&amp;quot;
+                                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;},
+                                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;to_if_held_down&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: {
+                                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;key_code&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;mission_control&amp;quot;
+                                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;},
+                                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;type&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;basic&amp;quot;
+                            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;},
+                            {
+                                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;from&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: {
+                                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;pointing_button&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;button4&amp;quot;
+                                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;},
+                                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;to&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: {
+                                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;key_code&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;right_arrow&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;,
+                                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;modifiers&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: [
+                                        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;control&amp;quot;
+                                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;]
+                                },
+                                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;type&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;basic&amp;quot;
+                            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;},
+                            {
+                                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;from&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: {
+                                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;pointing_button&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;button6&amp;quot;
+                                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;},
+                                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;to&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: {
+                                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;key_code&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;left_arrow&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;,
+                                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;modifiers&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: [
+                                        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;control&amp;quot;
+                                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;]
+                                },
+                                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;type&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;basic&amp;quot;
+                            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;}
+                        ]
+                    }
+                ]
+            },
+            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;devices&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: [
+                {
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;disable_built_in_keyboard_if_exists&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8f3f71;&quot;&gt;false&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;,
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;fn_function_keys&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: [],
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;identifiers&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: {
+                        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;is_keyboard&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8f3f71;&quot;&gt;false&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;,
+                        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;is_pointing_device&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8f3f71;&quot;&gt;true&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;,
+                        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;product_id&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8f3f71;&quot;&gt;401&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;,
+                        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;vendor_id&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8f3f71;&quot;&gt;6780
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;},
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;ignore&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8f3f71;&quot;&gt;false&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;,
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;manipulate_caps_lock_led&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8f3f71;&quot;&gt;false&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;,
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;simple_modifications&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: []
+                },
+                {
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;disable_built_in_keyboard_if_exists&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8f3f71;&quot;&gt;false&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;,
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;fn_function_keys&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: [],
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;identifiers&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: {
+                        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;is_keyboard&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8f3f71;&quot;&gt;true&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;,
+                        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;is_pointing_device&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8f3f71;&quot;&gt;false&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;,
+                        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;product_id&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8f3f71;&quot;&gt;615&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;,
+                        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;vendor_id&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8f3f71;&quot;&gt;76
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;},
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;ignore&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8f3f71;&quot;&gt;true&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;,
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;manipulate_caps_lock_led&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8f3f71;&quot;&gt;true&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;,
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;simple_modifications&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: []
+                },
+                {
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;disable_built_in_keyboard_if_exists&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8f3f71;&quot;&gt;false&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;,
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;fn_function_keys&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: [],
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;identifiers&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: {
+                        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;is_keyboard&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8f3f71;&quot;&gt;true&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;,
+                        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;is_pointing_device&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8f3f71;&quot;&gt;false&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;,
+                        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;product_id&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8f3f71;&quot;&gt;34304&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;,
+                        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;vendor_id&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8f3f71;&quot;&gt;1452
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;},
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;ignore&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8f3f71;&quot;&gt;true&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;,
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;manipulate_caps_lock_led&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8f3f71;&quot;&gt;true&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;,
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;simple_modifications&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: []
+                },
+                {
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;disable_built_in_keyboard_if_exists&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8f3f71;&quot;&gt;false&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;,
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;fn_function_keys&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: [],
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;identifiers&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: {
+                        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;is_keyboard&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8f3f71;&quot;&gt;true&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;,
+                        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;is_pointing_device&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8f3f71;&quot;&gt;false&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;,
+                        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;product_id&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8f3f71;&quot;&gt;636&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;,
+                        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;vendor_id&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8f3f71;&quot;&gt;1452
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;},
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;ignore&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8f3f71;&quot;&gt;true&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;,
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;manipulate_caps_lock_led&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8f3f71;&quot;&gt;true&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;,
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;simple_modifications&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: []
+                }
+            ],
+            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;fn_function_keys&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: [
+                {
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;from&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: {
+                        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;key_code&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;f1&amp;quot;
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;},
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;to&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: {
+                        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;consumer_key_code&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;display_brightness_decrement&amp;quot;
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;}
+                },
+                {
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;from&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: {
+                        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;key_code&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;f2&amp;quot;
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;},
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;to&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: {
+                        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;consumer_key_code&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;display_brightness_increment&amp;quot;
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;}
+                },
+                {
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;from&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: {
+                        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;key_code&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;f3&amp;quot;
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;},
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;to&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: {
+                        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;key_code&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;mission_control&amp;quot;
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;}
+                },
+                {
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;from&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: {
+                        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;key_code&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;f4&amp;quot;
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;},
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;to&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: {
+                        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;key_code&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;launchpad&amp;quot;
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;}
+                },
+                {
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;from&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: {
+                        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;key_code&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;f5&amp;quot;
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;},
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;to&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: {
+                        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;key_code&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;illumination_decrement&amp;quot;
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;}
+                },
+                {
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;from&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: {
+                        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;key_code&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;f6&amp;quot;
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;},
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;to&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: {
+                        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;key_code&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;illumination_increment&amp;quot;
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;}
+                },
+                {
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;from&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: {
+                        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;key_code&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;f7&amp;quot;
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;},
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;to&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: {
+                        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;consumer_key_code&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;rewind&amp;quot;
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;}
+                },
+                {
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;from&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: {
+                        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;key_code&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;f8&amp;quot;
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;},
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;to&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: {
+                        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;consumer_key_code&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;play_or_pause&amp;quot;
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;}
+                },
+                {
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;from&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: {
+                        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;key_code&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;f9&amp;quot;
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;},
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;to&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: {
+                        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;consumer_key_code&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;fast_forward&amp;quot;
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;}
+                },
+                {
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;from&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: {
+                        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;key_code&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;f10&amp;quot;
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;},
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;to&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: {
+                        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;consumer_key_code&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;mute&amp;quot;
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;}
+                },
+                {
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;from&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: {
+                        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;key_code&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;f11&amp;quot;
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;},
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;to&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: {
+                        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;consumer_key_code&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;volume_decrement&amp;quot;
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;}
+                },
+                {
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;from&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: {
+                        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;key_code&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;f12&amp;quot;
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;},
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;to&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: {
+                        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;consumer_key_code&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;volume_increment&amp;quot;
+                    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;}
+                }
+            ],
+            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;name&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;Default profile&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;,
+            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;parameters&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: {
+                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;delay_milliseconds_before_open_device&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8f3f71;&quot;&gt;1000
+            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;},
+            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;selected&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8f3f71;&quot;&gt;true&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;,
+            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;simple_modifications&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: [],
+            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;virtual_hid_keyboard&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: {
+                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;country_code&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8f3f71;&quot;&gt;0&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;,
+                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;mouse_key_xy_scale&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8f3f71;&quot;&gt;100
+            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;}
+        }
+    ]
+}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>testing a tiling window manager for a week on thinkpad</title>
+		<published>2020-05-17T00:00:00+00:00</published>
+		<updated>2020-05-17T00:00:00+00:00</updated>
+		<link href="https://ismaellachheb.fr/i3-land/" type="text/html"/>
+		<id>https://ismaellachheb.fr/i3-land/</id>
+		<content type="html">&lt;p&gt;In the last few years, tiling window manager gathered a lot of traction, they are presumed to be extremely lightweight, run responsively even with old hardware and more importantly improve your productivity. I have been using gnome-shell and plasma on my thinkpad T460 for the last few years. I sometime felt frustated by the unresponsiveess of my computer and i am always looking for new way of improving my productivity so the tiling window manager world caught my attention.&lt;&#x2F;p&gt;
+&lt;p&gt;Using a tiling window manager means 100% of your screen is always used, the workflow depend heavily on keyboard shortcuts, The windows size and position are dynamically changed every time a new window is opened on the workspace.&lt;&#x2F;p&gt;
+&lt;p&gt;The first step is to choose a tiling window manager, there are tons of them :&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;i3wm&lt;&#x2F;li&gt;
+&lt;li&gt;dwm&lt;&#x2F;li&gt;
+&lt;li&gt;awesome&lt;&#x2F;li&gt;
+&lt;li&gt;xmonad&lt;&#x2F;li&gt;
+&lt;li&gt;...&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;The most famous of them being i3, this is the one I decided to use.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;installation&quot;&gt;Installation&lt;&#x2F;h3&gt;
+&lt;p&gt;The installation process was pretty fast :&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#fcf0ca;&quot;&gt;
+&lt;code&gt; sudo dnf install i3 i3status dmenu i3lock xbacklight feh 
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Firstly, i3 play well when installed next to gnome-shell, it is available in the list of desktop environnement (on the logging page) and gnome-shell continue to work without any issue or sluggishness when i3 is installed on the system. This is not the case when plasma is installed next to it as it is adviced to not install both desktop environnement on the system at the same time.&lt;&#x2F;p&gt;
+&lt;p&gt;When starting i3 session, i easily followed steps of the welcome screen and start reading the configuration file as I was testing it. Default configuration are pretty good but depending on your hardware, many things won&#x27;t work by default. On mine which is a thinkpad, I had to do a lot of things, let&#x27;s review some issue i encontered.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;fix&quot;&gt;Fix&lt;&#x2F;h3&gt;
+&lt;p&gt;The most annoying issue was with the screen management, I heard that tiling window manager play nicely with multiple monitor setup. Definetely not in my case, the issue with i3 is it will not dynamically adjusting when my monitor setup change, I need to run one or two xrandr command line to handle every modification of my screen setup. When I connect  a monitor and when I disconnect it. Same thing if I decide to close the lid of my laptop to only use the external monitor or when I open it. Those kinds of modifications can happened dozens of times in a single day and it&#x27;s a real burden to handle this manually. Samething with wallpaper because i also need to run a feh command in that case.&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#fcf0ca;&quot;&gt;
+&lt;code&gt;xrandr --output HDMI-2 --right-of eDP-1 --mode 2560x1440
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Furthermore, dmenu was not working and did not display flatpak apps, so you need to use i3-dmenu-desktop instead&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#fcf0ca;&quot;&gt;
+&lt;code&gt;sudo dnf install i3-dmenu-desktop
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Eventually, I installed brighnessctl as xbacklight was not working and used it to control my brightness.&lt;&#x2F;p&gt;
+&lt;p&gt;bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +10%
+bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 10%-&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;If there is an applet to handle the wifi which play well with i3, there is no functional bluetooth applet (at least one I heard of) and bluetooth became a major thechnology in the few last years. The only solution I find on the web is blueman which does not fit well with tiling window manager.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;configuration&quot;&gt;Configuration&lt;&#x2F;h3&gt;
+&lt;p&gt;When moving a window to a workplace, I want to move to that workspace; hence I changed the config file&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#fcf0ca;&quot;&gt;
+&lt;code&gt;bindsym $mod+Shift+1 move container to workspace number $ws1; workspace number $ws1
+bindsym $mod+Shift+eacute move container to workspace number $ws2; workspace number $ws2
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;I changed the bar config to use another font, however I was not sucessful at displaying the bar with transparency effect&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#fcf0ca;&quot;&gt;
+&lt;code&gt;bar {
+        font pango:FontAwesome-10 10
+        status_command i3status --config ~&#x2F;.config&#x2F;i3&#x2F;i3status.conf
+        position bottom
+        i3bar_command i3bar --transparency
+        tray_output primary
+        workspace_min_width 20
+}
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Setup my wallpaper&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#fcf0ca;&quot;&gt;
+&lt;code&gt;exec --no-startup-id  feh --bg-scale ~&#x2F;Images&#x2F;elephant_trunk_bird.jpg
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Start redhsift at startup (a night mode filter software) :&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#fcf0ca;&quot;&gt;
+&lt;code&gt;exec --no-startup-id &amp;quot;redshift&amp;quot;
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Be sure you have every needed fonts, any missing may cause issues :&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#fcf0ca;&quot;&gt;
+&lt;code&gt;sudo dnf install levien-inconsolata-fonts
+sudo dnf install mozilla-fira-mono-fonts
+sudo dnf install google-droid-sans-mono-fonts
+sudo dnf install dejavu-sans-mono-fonts
+sudo dnf instakk google-noto-emoji-fonts
+sudo dnf install google-noto-emoji-fonts
+sudo dnf install google-noto-emoji-color-fonts
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;To handle the bar at the bottom, i wrote this little configuration file. (another solution is to use polybar)&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#fcf0ca;&quot;&gt;
+&lt;code&gt;general {
+        colors = true
+        interval = 5
+     separator = &amp;quot;|&amp;quot;
+}
+
+
+order += &amp;quot;cpu_temperature 0&amp;quot;
+order += &amp;quot;memory&amp;quot;
+order += &amp;quot;battery 1&amp;quot;
+order += &amp;quot;tztime Paris&amp;quot;
+
+tztime Paris {
+        format = &amp;quot;%H:%M&amp;quot;
+        timezone = &amp;quot;Europe&#x2F;Paris&amp;quot;
+}
+
+battery 1 {
+        format = &amp;quot;%status %percentage %remaining &amp;quot;
+        format_down = &amp;quot;No battery&amp;quot;
+        status_chr = &amp;quot;⚡ CHR&amp;quot;
+        status_bat = &amp;quot;🔋 BAT&amp;quot;
+        status_unk = &amp;quot;? UNK&amp;quot;
+        status_full = &amp;quot;☻ FULL&amp;quot;
+        path = &amp;quot;&#x2F;sys&#x2F;class&#x2F;power_supply&#x2F;BAT1&#x2F;uevent&amp;quot;
+        low_threshold = 10
+}
+
+
+cpu_temperature 0 {
+ format = &amp;quot;T: %degrees °C&amp;quot;
+        path = &amp;quot;&#x2F;sys&#x2F;devices&#x2F;platform&#x2F;coretemp.0&#x2F;hwmon&#x2F;hwmon6&#x2F;temp1_input&amp;quot;
+}
+
+
+memory {
+        format = &amp;quot;%used&amp;quot;
+        threshold_degraded = &amp;quot;10%&amp;quot;
+        format_degraded = &amp;quot;MEMORY: %free&amp;quot;
+}
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;last but not least, I replaced the infamous urxvt terminal with alacritty&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#fcf0ca;&quot;&gt;
+&lt;code&gt;bindsym $mod+Return exec alacritty
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;h3 id=&quot;my-feelings-about-i3&quot;&gt;my feelings about i3&lt;&#x2F;h3&gt;
+&lt;p&gt;Funny enough, it was not the time passed on configuration that frustrated me because you can as a user spend as much time as configuring i3 that configuring plasma or gnome (maybe even less time because there are more features and options in plasma than in i3). The issue with i3 and with probably most tiling window manager is you &lt;strong&gt;need&lt;&#x2F;strong&gt; to do it as a certain extent to have a fonctionnal system.&lt;&#x2F;p&gt;
+&lt;p&gt;Resourcewise, i3 is probably around 2 to 3 times less resource heavy than gnome-shell. This is great but as a matter of fact it will not change radically your experience with your computer, your probably going to move from around 800Mb to 400Mb and use 2 times less CPU power. Those resource savings sounds well but are just comparable to a browser opened with a few tabs (maybe one or two) and won&#x27;t radically change your experience with your computer. If you are using a lightweight desktop environment like xfce of mate, you will gain almost nothing resourcewise. I think resources saving should not be what drives you to tiling window management.&lt;&#x2F;p&gt;
+&lt;p&gt;i3 resource usage :&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;lachhebo&#x2F;lachhebo.github.io&#x2F;screenshots&#x2F;i3_htop.png&quot; alt=&quot;i3 htop&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;gnome resource usage&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;lachhebo&#x2F;lachhebo.github.io&#x2F;screenshots&#x2F;gnome_shell_htop.png&quot; alt=&quot;gnome-shell htop&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Don&#x27;t forget you loose many features and some of them being useful when switching to a tiling window manager :&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;dynamical workspaces&lt;&#x2F;li&gt;
+&lt;li&gt;dynamical management of multiple monitors&lt;&#x2F;li&gt;
+&lt;li&gt;notifications&lt;&#x2F;li&gt;
+&lt;li&gt;overview&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Actually, I think i3 is just not as efficient as classic desktop environment when dealing with dynamical events, like every issue with linux, you may find a fix for each of those by tweaking your desktops and writing some scripts. But you will need to have a certain amount of programming skills and free time to do that.&lt;&#x2F;p&gt;
+&lt;p&gt;Another solution I tried is to install a &lt;a href=&quot;https:&#x2F;&#x2F;extensions.gnome.org&#x2F;extension&#x2F;1286&#x2F;tilingnome&#x2F;&quot;&gt;gnome-extension&lt;&#x2F;a&gt; to replicate the tiling management workflow and it worked surprisally well.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;&#x2F;h2&gt;
+&lt;p&gt;Tiling window manager are really interesssing, especicaly If you use your computer with a fixed setup (fix number of monitors, monitor placement, wifi and bluetooth) and your don&#x27;t mind your grandma being unable to use your computer, It&#x27;s probably not the best solution for laptop, casual or lazy users.&lt;&#x2F;p&gt;
+&lt;p&gt;As for myself, this week was really interesting and I will not uninstall i3 from my computer as I felt in love with the tiling workflow, using once again stacking window manager like gnome or plasma after using a tiling window manager felt a bit frustrating. &lt;strong&gt;However&lt;&#x2F;strong&gt;, I will not use i3 as my main window manager as for now and uses a gnome-extension to keep advanced features I consider important.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>co2-monitor: follow your carbon footprint on chrome</title>
+		<published>2020-04-16T00:00:00+00:00</published>
+		<updated>2020-04-16T00:00:00+00:00</updated>
+		<link href="https://ismaellachheb.fr/co2-monitor/" type="text/html"/>
+		<id>https://ismaellachheb.fr/co2-monitor/</id>
+		<content type="html">&lt;p&gt;CO2-monitor is a chrome extension to follow your carbon footprint during your navigation on the Internet. It&#x27;s available on
+the chrome web store and the firefox add-ons store.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;how-co2-emissions-are-assessed&quot;&gt;How co2 emissions are assessed ?&lt;&#x2F;h2&gt;
+&lt;p&gt;As many parameters need to be taken into account in the co2 emission equation, it is almost impossible to know exactly how much co2 has been produced by your daily internet usage; although, some of them are the following :&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Your computer energy consumption.&lt;&#x2F;li&gt;
+&lt;li&gt;The carbon intensity of the electricity you&#x27;re using.&lt;&#x2F;li&gt;
+&lt;li&gt;The website&#x27;s servers carbon intensity.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;My first idea was to use the user location, the carbon intensity of the electrical grid in the country he lives in, the cpu he uses and how much Mbs of data is passing though chrome to obtain a rough estimation. However, this implementation has two major downsides :&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;It is not taking into account the carbon intensity of the data center.&lt;&#x2F;li&gt;
+&lt;li&gt;The parameter used is not really at the hand of the user, so it would be hard for him to optimize his co2 emissions related to his daily browsing.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;As I discovered the API of wholegrain, I used it on around 50 most visited websites (according to alexa and similarweb) to obtain a rough estimation of how much co2 is produced when visiting each of those websites. Actually, three attributes have caught my attention for each website:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;CO2 produced by visiting one page.&lt;&#x2F;li&gt;
+&lt;li&gt;Size of the bytes transferred between my computer and the website.&lt;&#x2F;li&gt;
+&lt;li&gt;Energy used to load the page.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;When you&#x27;re visiting one of the given website, the extension is using the data which are passing through chrome and the known co2 emissions for a certain data byte size to obtain a rough co2 emissions estimation.
+When you&#x27;re navigating on unknown website, the extension is using the average result.&lt;&#x2F;p&gt;
+&lt;p&gt;I averaged the numbers obtained with the 50 websites. Hence, when you are visiting unknown website, the extension is using the average numbers to compute the co2-emissions.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;resources&quot;&gt;Resources&lt;&#x2F;h2&gt;
+&lt;p&gt;Wholegrain API is used to obtain a rough estimation of the carbon intensity of a list of some most visited websites :&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.websitecarbon.com&#x2F;&quot;&gt;Wholegrain Carbon API&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>corona-tracker, follow the spread of the covid 19 virus in your country</title>
+		<published>2020-04-10T00:00:00+00:00</published>
+		<updated>2020-04-10T00:00:00+00:00</updated>
+		<link href="https://ismaellachheb.fr/corona-tracker/" type="text/html"/>
+		<id>https://ismaellachheb.fr/corona-tracker/</id>
+		<content type="html">&lt;p&gt;corona-tracker is a gnome shell extension that notify you every day with information about the corona virus spread.
+You can follow the spread of the virus in any country or for the entire world. Gnome extension are written with
+javascript and are actually monkey-patching the gnome-shell at run time which makes them really interresting to write.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Please stay at home, save lives.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;img height=&quot;350&quot; src=&quot;https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;lachhebo&#x2F;corona-tracker&#x2F;master&#x2F;resources&#x2F;screenshot.png&quot; &#x2F;&gt;
+&lt;h3 id=&quot;usage&quot;&gt;Usage&lt;&#x2F;h3&gt;
+&lt;p&gt;In &lt;code&gt;Icon &amp;gt; Settings&lt;&#x2F;code&gt; you can choose the country for which the data is displayed.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;contributors&quot;&gt;Contributors&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;lachhebo&quot;&gt;Ismaël Lachheb&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;jpsnyder&quot;&gt;Jonathan Snyder&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Tamas-Toth-ebola&quot;&gt;Tamas-Toth-ebola&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;credits&quot;&gt;Credits&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Thanks to the people who made this API freely available: &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;NovelCOVID&#x2F;API&#x2F;&quot;&gt;https:&#x2F;&#x2F;github.com&#x2F;NovelCOVID&#x2F;API&#x2F;&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Panel icon is from &lt;a href=&quot;https:&#x2F;&#x2F;materialdesignicons.com&#x2F;&quot;&gt;Material Design Icons&lt;&#x2F;a&gt; (&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;google&#x2F;material-design-icons&#x2F;blob&#x2F;master&#x2F;LICENSE&quot;&gt;license&lt;&#x2F;a&gt;).&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;support&quot;&gt;Support&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.paypal.me&#x2F;lachhebo&quot;&gt;&lt;img height=&quot;30&quot; src=&quot;https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;lachhebo&#x2F;GabTag&#x2F;screenshots&#x2F;donate.png&quot; alt=&quot;PayPal&quot;&#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Apple Magic Trackpad on Linux</title>
+		<published>2020-03-30T00:00:00+00:00</published>
+		<updated>2020-03-30T00:00:00+00:00</updated>
+		<link href="https://ismaellachheb.fr/using-the-magic-trackpad-2-on-linux/" type="text/html"/>
+		<id>https://ismaellachheb.fr/using-the-magic-trackpad-2-on-linux/</id>
+		<content type="html">&lt;p&gt;Currently, the Apple magic trackpad is probably one or the best bluetooth trackpad on the market. Unfortunately, using it on Linux can be a bit of a pain.&lt;&#x2F;p&gt;
+&lt;p&gt;If it is not a problem anymore to pair the device with the computer, the trackpad may not correctly repond to the order you will give to it at first.&lt;&#x2F;p&gt;
+&lt;p&gt;Most user would sadly conclude that the device is not working on Linux and would pick another trackpad but not me (and may be not you). I went on the Internet on looked after a solution until I found this great Github repository :&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;robotrovsky&#x2F;Linux-Magic-Trackpad-2-Driver&quot;&gt;https:&#x2F;&#x2F;github.com&#x2F;robotrovsky&#x2F;Linux-Magic-Trackpad-2-Driver&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;The solution they gave for &#x27;pressure&#x27; issue was to create a 90-magic-trackpad.conf in the &#x2F;usr&#x2F;share&#x2F;X11&#x2F;xorg.conf.d folder who look like that :&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#fcf0ca;&quot;&gt;
+&lt;code&gt;Section &amp;quot;InputClass&amp;quot;
+        Identifier      &amp;quot;Touchpads&amp;quot;
+        Driver          &amp;quot;libinput&amp;quot;
+        MatchProduct    &amp;quot;Apple Inc. Magic Trackpad 2&amp;quot;
+        MatchDevicePath &amp;quot;&#x2F;dev&#x2F;input&#x2F;event*&amp;quot;
+EndSection
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;It did not work, so I looked at the file already present in this folder and found the 10-quirks.conf who looked like that :&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#fcf0ca;&quot;&gt;
+&lt;code&gt;# Collection of quirks and blacklist&#x2F;whitelists for specific devices.
+
+# Accelerometer device, posts data through ABS_X&#x2F;ABS_Y, making X unusable
+# http:&#x2F;&#x2F;bugs.freedesktop.org&#x2F;show_bug.cgi?id=22442 
+Section &amp;quot;InputClass&amp;quot;
+        Identifier &amp;quot;ThinkPad HDAPS accelerometer blacklist&amp;quot;
+        MatchProduct &amp;quot;ThinkPad HDAPS accelerometer data&amp;quot;
+        Option &amp;quot;Ignore&amp;quot; &amp;quot;on&amp;quot;
+EndSection
+
+# https:&#x2F;&#x2F;bugzilla.redhat.com&#x2F;show_bug.cgi?id=523914
+# Mouse does not move in PV Xen guest
+# Explicitly tell evdev to not ignore the absolute axes.
+Section &amp;quot;InputClass&amp;quot;
+        Identifier &amp;quot;Xen Virtual Pointer axis blacklist&amp;quot;
+        MatchProduct &amp;quot;Xen Virtual Pointer&amp;quot;
+        Option &amp;quot;IgnoreAbsoluteAxes&amp;quot; &amp;quot;off&amp;quot;
+        Option &amp;quot;IgnoreRelativeAxes&amp;quot; &amp;quot;off&amp;quot;
+EndSection
+
+# https:&#x2F;&#x2F;bugs.freedesktop.org&#x2F;show_bug.cgi?id=55867
+# Bug 55867 - Doesn&#x27;t know how to tag XI_TRACKBALL
+Section &amp;quot;InputClass&amp;quot;
+        Identifier &amp;quot;Tag trackballs as XI_TRACKBALL&amp;quot;
+        MatchProduct &amp;quot;trackball&amp;quot;
+        MatchDriver &amp;quot;evdev&amp;quot;
+        Option &amp;quot;TypeName&amp;quot; &amp;quot;TRACKBALL&amp;quot;
+EndSection
+
+# https:&#x2F;&#x2F;bugs.freedesktop.org&#x2F;show_bug.cgi?id=62831
+# Bug 62831 - Mionix Naos 5000 mouse detected incorrectly
+Section &amp;quot;InputClass&amp;quot;
+        Identifier &amp;quot;Tag Mionix Naos 5000 mouse XI_MOUSE&amp;quot;
+        MatchProduct &amp;quot;La-VIEW Technology Naos 5000 Mouse&amp;quot;
+        MatchDriver &amp;quot;evdev&amp;quot;
+        Option &amp;quot;TypeName&amp;quot; &amp;quot;MOUSE&amp;quot;
+EndSection
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;I conclude i just needed to add the Apple MagicTrackpad configuration in this file and it worked perfectly :). Actually, to enable the to enable touch to click, i also add the line :&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#fcf0ca;&quot;&gt;
+&lt;code&gt;Option          &amp;quot;Tapping&amp;quot; &amp;quot;on&amp;quot;
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;As a final step, to avoid that anyone would once again loose one or two hours trying to use this trackpad; I filled a bug report at fedora bugzilla available at this &lt;a href=&quot;https:&#x2F;&#x2F;bugzilla.redhat.com&#x2F;show_bug.cgi?id=1818982&quot;&gt;address&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;&#x2F;h3&gt;
+&lt;p&gt;I think it was a good example of how sometimes a Linux user can cope with an issue and report the problem to help others people not facing it.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>pyclustertend, a python package to assess cluster tendency</title>
+		<published>2019-09-26T00:00:00+00:00</published>
+		<updated>2019-09-26T00:00:00+00:00</updated>
+		<link href="https://ismaellachheb.fr/pyclustertend-journal-development-2/" type="text/html"/>
+		<id>https://ismaellachheb.fr/pyclustertend-journal-development-2/</id>
+		<content type="html">&lt;p&gt;Here, I would like to present my experience creating the package pyclustertend. pyclustertend is a python package available on Pypi specialized in cluster tendency which consist to assess if clustering algorithms are relevant for a dataset.&lt;&#x2F;p&gt;
+&lt;p&gt;Three methods for assessing cluster tendency are currently implemented and one suplementary method based on metrics obtained with a KMeans estimator :&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+&lt;p&gt;Hopkins Statistics&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+&lt;p&gt;VAT&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+&lt;p&gt;iVAT&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+&lt;p&gt;Metric based method (silhouette, calinksi, davies bouldin)&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;installation&quot;&gt;Installation&lt;&#x2F;h2&gt;
+&lt;pre style=&quot;background-color:#fcf0ca;&quot;&gt;
+&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;    pip install pyclustertend
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;h2 id=&quot;usage&quot;&gt;Usage&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;example-hopkins&quot;&gt;Example Hopkins&lt;&#x2F;h3&gt;
+&lt;pre style=&quot;background-color:#fcf0ca;&quot;&gt;
+&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b23c15;&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#9d0006;&quot;&gt;from &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;sklearn &lt;&#x2F;span&gt;&lt;span style=&quot;color:#9d0006;&quot;&gt;import &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;datasets
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b23c15;&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#9d0006;&quot;&gt;from &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;pyclustertend &lt;&#x2F;span&gt;&lt;span style=&quot;color:#9d0006;&quot;&gt;import &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;hopkins
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b23c15;&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#9d0006;&quot;&gt;from &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;sklearn.preprocessing &lt;&#x2F;span&gt;&lt;span style=&quot;color:#9d0006;&quot;&gt;import &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;scale
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b23c15;&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;X &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b23c15;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828;&quot;&gt;scale(datasets.load_iris().data)
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b23c15;&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828;&quot;&gt;hopkins(X,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8f3f71;&quot;&gt;150&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828;&quot;&gt;)
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8f3f71;&quot;&gt;0.18950453452838564
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;h3 id=&quot;example-vat&quot;&gt;Example VAT&lt;&#x2F;h3&gt;
+&lt;pre style=&quot;background-color:#fcf0ca;&quot;&gt;
+&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b23c15;&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#9d0006;&quot;&gt;from &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;sklearn &lt;&#x2F;span&gt;&lt;span style=&quot;color:#9d0006;&quot;&gt;import &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;datasets
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b23c15;&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#9d0006;&quot;&gt;from &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;pyclustertend &lt;&#x2F;span&gt;&lt;span style=&quot;color:#9d0006;&quot;&gt;import &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;vat
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b23c15;&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#9d0006;&quot;&gt;from &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;sklearn.preprocessing &lt;&#x2F;span&gt;&lt;span style=&quot;color:#9d0006;&quot;&gt;import &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;scale
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b23c15;&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;X &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b23c15;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828;&quot;&gt;scale(datasets.load_iris().data)
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b23c15;&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828;&quot;&gt;vat(X)
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;img height=&quot;350&quot; src=&quot;https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;lachhebo&#x2F;pyclustertend&#x2F;screenshots&#x2F;vat.png&quot; &#x2F;&gt;
+&lt;h3 id=&quot;example-ivat&quot;&gt;Example iVat&lt;&#x2F;h3&gt;
+&lt;pre style=&quot;background-color:#fcf0ca;&quot;&gt;
+&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b23c15;&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#9d0006;&quot;&gt;from &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;sklearn &lt;&#x2F;span&gt;&lt;span style=&quot;color:#9d0006;&quot;&gt;import &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;datasets
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b23c15;&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#9d0006;&quot;&gt;from &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;pyclustertend &lt;&#x2F;span&gt;&lt;span style=&quot;color:#9d0006;&quot;&gt;import &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;ivat
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b23c15;&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#9d0006;&quot;&gt;from &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;sklearn.preprocessing &lt;&#x2F;span&gt;&lt;span style=&quot;color:#9d0006;&quot;&gt;import &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;scale
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b23c15;&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828aa;&quot;&gt;X &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b23c15;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828;&quot;&gt;scale(datasets.load_iris().data)
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b23c15;&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828;&quot;&gt;ivat(X)
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;img height=&quot;350&quot; src=&quot;https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;lachhebo&#x2F;pyclustertend&#x2F;screenshots&#x2F;ivat.png&quot; &#x2F;&gt;
+&lt;h2 id=&quot;source-and-notes&quot;&gt;Source and Notes&lt;&#x2F;h2&gt;
+&lt;p&gt;It&#x27;s preferable to scale the data before using hopkins or vat algorithm as they use distance between observations. Moreover, vat and ivat algorithms
+do not really fit to massive databases. For the user, a first solution is to sample the data before using those algorithms. As for the maintainer of this implementation, it could be useful to represent the dissimalirity matrix in a smarter way to decrease the time complexity.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;gathered-skills&quot;&gt;Gathered skills&lt;&#x2F;h2&gt;
+&lt;p&gt;I am proud of my work and hope to keep bring improvments on pyclustertend. This experience sharped my skills in :&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Python Development&lt;&#x2F;li&gt;
+&lt;li&gt;Continious Integration&lt;&#x2F;li&gt;
+&lt;li&gt;Data Science (mainly clustering)&lt;&#x2F;li&gt;
+&lt;li&gt;Retrieval of information&lt;&#x2F;li&gt;
+&lt;li&gt;Documentation&lt;&#x2F;li&gt;
+&lt;li&gt;Pip packaging&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>GabTag, an audio tagging tool</title>
+		<published>2019-05-15T00:00:00+00:00</published>
+		<updated>2019-05-15T00:00:00+00:00</updated>
+		<link href="https://ismaellachheb.fr/gabtag-journal-development-1/" type="text/html"/>
+		<id>https://ismaellachheb.fr/gabtag-journal-development-1/</id>
+		<content type="html">&lt;p&gt;GabTag is a Linux audio tagging tool written in GTK 3, which makes it very suitable for GTK based desktop users. It is also the first Linux application I wrote.&lt;&#x2F;p&gt;
+&lt;p&gt;The program allows users to select several files and modify their tags. It&#x27;s also possible to let GabTag automatically find tags and lyrics for an audio file using MusicBrainz and lyrics.wikia.com database.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&#x27;https:&#x2F;&#x2F;flathub.org&#x2F;apps&#x2F;details&#x2F;com.github.lachhebo.Gabtag&#x27;&gt;&lt;img width=&#x27;240&#x27; alt=&#x27;Download on Flathub&#x27; src=&#x27;https:&#x2F;&#x2F;flathub.org&#x2F;assets&#x2F;badges&#x2F;flathub-badge-en.png&#x27;&#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;screenshots&quot;&gt;Screenshots&lt;&#x2F;h3&gt;
+&lt;img height=&quot;350&quot; src=&quot;https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;lachhebo&#x2F;GabTag&#x2F;screenshots&#x2F;Gabtag_v13_2.png&quot; &#x2F;&gt;
+&lt;h3 id=&quot;features&quot;&gt;Features&lt;&#x2F;h3&gt;
+&lt;p&gt;Some features have been developped but the application can still be improved.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+Add, modify or delete basic tags (title, album, artist, genre)&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+other strings tags and labels&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+Cover tag&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+Modify several files at the same time.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+MP3 File handled&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
+Flac File handled&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+bold font on modified tags and files&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+Automatic completion of tags (from online data)&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+Lyrics (from online data)&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
+Multi-folder modification&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
+Acoustic ID integration&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;issues-encontered-during-development&quot;&gt;Issues encontered during development&lt;&#x2F;h4&gt;
+&lt;p&gt;The issues i enconutered are mostly caused by the lack of documentation regarding gtk3 software development.&lt;&#x2F;p&gt;
+&lt;h5 id=&quot;1-setting-up-travis-ci&quot;&gt;1) setting up Travis-ci&lt;&#x2F;h5&gt;
+&lt;p&gt;The hardest thing for me has been to set up Travis-ci, I first set up a Travis-org ci (a deprecated version of Travis-ci) instead of the classic Travis-ci. Hence, I was not able to transfer my project in the newer version of Travis-CI. Then, I had to create a new GitHub repository to fix that. Eventually, I also struglled to find out that Travis need the python3-gi package and the PygObject pip package to be able to test the project.&lt;&#x2F;p&gt;
+&lt;h5 id=&quot;2-make-the-grid-box-scrollable&quot;&gt;2) make the grid box scrollable&lt;&#x2F;h5&gt;
+&lt;p&gt;The second issue I encountered was linked to the layout. To make my grid layout scrollable, I had to put it inside a GtkAspectFrame and a GtkViewport. Anyway my layout is still not completely satisfying because i always need to resize the size of my panel when I&#x27;m using Gabtag.&lt;&#x2F;p&gt;
+&lt;h5 id=&quot;3-using-gdkpixbufprolog&quot;&gt;3) using GdkPixbufProlog&lt;&#x2F;h5&gt;
+&lt;p&gt;Last but not least, this issue which is still not fixed is with gdkpixbuf class. It is a bit surprising how showing an image can be hard in gtk. I had to use an external API called Pillow to show a byte image.&lt;&#x2F;p&gt;
+&lt;p&gt;Even more surprising, for some image, the gtk pixbuf is not showing a scaled version of it but a deformed version of it. This issue is only apparing on my application so I hope I will be able to quickly fix it.&lt;&#x2F;p&gt;
+&lt;p&gt;If you get a solution for those issues, you can send my an email to ismael.lachheb@protonmail.com. Otherwise, I hope my experience can help you.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;gathered-skills&quot;&gt;Gathered skills&lt;&#x2F;h4&gt;
+&lt;p&gt;I am proud of my work and hope to keep improving Gabtag. This experience sharped my skills in :&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Python Development&lt;&#x2F;li&gt;
+&lt;li&gt;Continious Integration&lt;&#x2F;li&gt;
+&lt;li&gt;Object oriented programming&lt;&#x2F;li&gt;
+&lt;li&gt;Translation&lt;&#x2F;li&gt;
+&lt;li&gt;Flatpak packaging&lt;&#x2F;li&gt;
+&lt;li&gt;Reverse engineering&lt;&#x2F;li&gt;
+&lt;li&gt;Git&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+</feed>

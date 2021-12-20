@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Apple Magic Trackpad on Linux &middot; isma&#x27;s hut</title>
+    <meta name="description" content="Bloging about ML, FOSS and green IT" />
+    <link rel="shortcut icon"  href="https://ismaellachheb.fr/favicon.ico" />
+    <link rel="alternate" type="application/atom+xml" title="RSS" href="https://ismaellachheb.fr/atom.xml">
+
+    <style>html,body{background:#ffffff;color:#2d2d2d;font:16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"}a,a:visited{color:darkred;text-decoration:none}a:hover{text-decoration:underline}main{margin:auto;max-width:38rem;padding:0.8rem}pre{background:white;overflow:scroll;padding:1rem}td{border:1px solid #2d2d2d;padding:10px}img{height:auto;max-width:100%}.homepage-list{list-style:none;padding:1rem 0}.homepage-list li{align-items:center;display:flex;flex-wrap:wrap;justify-content:space-between;margin-bottom:10px}@media (max-width: 38rem){.homepage-list li a{width:100%}}
+</style>
+
+    <meta property="og:site_name" content="isma&#x27;s hut">
+      
+      <meta property="og:title" content="Apple Magic Trackpad on Linux">
+      <meta property="og:description" content="">
+      <meta property="og:url" content="https://ismaellachheb.fr/using-the-magic-trackpad-2-on-linux/">
+      <meta property="og:image" content="https://ismaellachheb.fr/portfolio.png">
+
+      <meta property="og:type" content="article" />
+        <meta property="article:published_time" content="2020-03-30T00:00:00+00:00" />
+
+      <link rel="prev" href="https://ismaellachheb.fr/pyclustertend-journal-development-2/" />
+      <link rel="next" href="https://ismaellachheb.fr/corona-tracker/" />
+    
+
+	<script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-142589817-1', 'auto');
+          ga('send', 'pageview');
+        </script>
+  </head>
+  
+
+  <body>
+    <main id="main" role="main">
+
+      
+      <header role="banner">
+        <h3 style="margin-top:0;">
+          <a href="https://ismaellachheb.fr" title="Home">isma&#x27;s hut</a>
+          <br /><small>Bloging about ML, FOSS and green IT</small>
+        </h3>
+      </header>
+      <hr />
+      
+
+      
+<article>
+  <h1>Apple Magic Trackpad on Linux</h1>
+
+  
+    <p style="font-size:90%;">Posted on <time datetime="2020-03-30T00:00:00+00:00">March 30, 2020</time></p>
+  
+
+  <p>Currently, the Apple magic trackpad is probably one or the best bluetooth trackpad on the market. Unfortunately, using it on Linux can be a bit of a pain.</p>
+<p>If it is not a problem anymore to pair the device with the computer, the trackpad may not correctly repond to the order you will give to it at first.</p>
+<p>Most user would sadly conclude that the device is not working on Linux and would pick another trackpad but not me (and may be not you). I went on the Internet on looked after a solution until I found this great Github repository :</p>
+<ul>
+<li><a href="https://github.com/robotrovsky/Linux-Magic-Trackpad-2-Driver">https://github.com/robotrovsky/Linux-Magic-Trackpad-2-Driver</a></li>
+</ul>
+<p>The solution they gave for 'pressure' issue was to create a 90-magic-trackpad.conf in the /usr/share/X11/xorg.conf.d folder who look like that :</p>
+<pre style="background-color:#fcf0ca;">
+<code>Section &quot;InputClass&quot;
+        Identifier      &quot;Touchpads&quot;
+        Driver          &quot;libinput&quot;
+        MatchProduct    &quot;Apple Inc. Magic Trackpad 2&quot;
+        MatchDevicePath &quot;/dev/input/event*&quot;
+EndSection
+</code></pre>
+<p>It did not work, so I looked at the file already present in this folder and found the 10-quirks.conf who looked like that :</p>
+<pre style="background-color:#fcf0ca;">
+<code># Collection of quirks and blacklist/whitelists for specific devices.
+
+# Accelerometer device, posts data through ABS_X/ABS_Y, making X unusable
+# http://bugs.freedesktop.org/show_bug.cgi?id=22442 
+Section &quot;InputClass&quot;
+        Identifier &quot;ThinkPad HDAPS accelerometer blacklist&quot;
+        MatchProduct &quot;ThinkPad HDAPS accelerometer data&quot;
+        Option &quot;Ignore&quot; &quot;on&quot;
+EndSection
+
+# https://bugzilla.redhat.com/show_bug.cgi?id=523914
+# Mouse does not move in PV Xen guest
+# Explicitly tell evdev to not ignore the absolute axes.
+Section &quot;InputClass&quot;
+        Identifier &quot;Xen Virtual Pointer axis blacklist&quot;
+        MatchProduct &quot;Xen Virtual Pointer&quot;
+        Option &quot;IgnoreAbsoluteAxes&quot; &quot;off&quot;
+        Option &quot;IgnoreRelativeAxes&quot; &quot;off&quot;
+EndSection
+
+# https://bugs.freedesktop.org/show_bug.cgi?id=55867
+# Bug 55867 - Doesn't know how to tag XI_TRACKBALL
+Section &quot;InputClass&quot;
+        Identifier &quot;Tag trackballs as XI_TRACKBALL&quot;
+        MatchProduct &quot;trackball&quot;
+        MatchDriver &quot;evdev&quot;
+        Option &quot;TypeName&quot; &quot;TRACKBALL&quot;
+EndSection
+
+# https://bugs.freedesktop.org/show_bug.cgi?id=62831
+# Bug 62831 - Mionix Naos 5000 mouse detected incorrectly
+Section &quot;InputClass&quot;
+        Identifier &quot;Tag Mionix Naos 5000 mouse XI_MOUSE&quot;
+        MatchProduct &quot;La-VIEW Technology Naos 5000 Mouse&quot;
+        MatchDriver &quot;evdev&quot;
+        Option &quot;TypeName&quot; &quot;MOUSE&quot;
+EndSection
+</code></pre>
+<p>I conclude i just needed to add the Apple MagicTrackpad configuration in this file and it worked perfectly :). Actually, to enable the to enable touch to click, i also add the line :</p>
+<pre style="background-color:#fcf0ca;">
+<code>Option          &quot;Tapping&quot; &quot;on&quot;
+</code></pre>
+<p>As a final step, to avoid that anyone would once again loose one or two hours trying to use this trackpad; I filled a bug report at fedora bugzilla available at this <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1818982">address</a></p>
+<h3 id="conclusion">Conclusion</h3>
+<p>I think it was a good example of how sometimes a Linux user can cope with an issue and report the problem to help others people not facing it.</p>
+
+
+</article>
+
+  <hr />
+  <p>
+  <script src="https://utteranc.es/client.js" repo="lachhebo/lachhebo.github.io" issue-term="title" theme="github-light"
+    crossorigin="anonymous" async>
+    </script>
+  </p>
+
+
+
+
+      
+      <footer role="contentinfo">
+        <hr />
+        
+        <nav style="margin-bottom:1rem;" role="navigation">
+          
+            <a href="https://ismaellachheb.fr/about">about</a>
+            
+              <span>&middot;</span>
+            
+          
+            <a href="https://ismaellachheb.fr/atom.xml">rss</a>
+            
+              <span>&middot;</span>
+            
+          
+            <a href="https://github.com/lachhebo">github</a>
+            
+              <span>&middot;</span>
+            
+          
+            <a href="https://twitter.com/lachhebo7">twitter</a>
+            
+          
+        </nav>
+        
+        
+        <small>
+          
+          
+        </small>
+        
+      </footer>
+      
+
+    </main>
+    
+    
+  </body>
+</html>
+

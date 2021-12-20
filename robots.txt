@@ -1,0 +1,3 @@
+user-agent: UA-142589817-1
+Allow: /
+sitemap: https://ismaellachheb.fr/sitemap.xml

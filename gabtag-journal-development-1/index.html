@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>GabTag, an audio tagging tool &middot; isma&#x27;s hut</title>
+    <meta name="description" content="Bloging about ML, FOSS and green IT" />
+    <link rel="shortcut icon"  href="https://ismaellachheb.fr/favicon.ico" />
+    <link rel="alternate" type="application/atom+xml" title="RSS" href="https://ismaellachheb.fr/atom.xml">
+
+    <style>html,body{background:#ffffff;color:#2d2d2d;font:16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"}a,a:visited{color:darkred;text-decoration:none}a:hover{text-decoration:underline}main{margin:auto;max-width:38rem;padding:0.8rem}pre{background:white;overflow:scroll;padding:1rem}td{border:1px solid #2d2d2d;padding:10px}img{height:auto;max-width:100%}.homepage-list{list-style:none;padding:1rem 0}.homepage-list li{align-items:center;display:flex;flex-wrap:wrap;justify-content:space-between;margin-bottom:10px}@media (max-width: 38rem){.homepage-list li a{width:100%}}
+</style>
+
+    <meta property="og:site_name" content="isma&#x27;s hut">
+      
+      <meta property="og:title" content="GabTag, an audio tagging tool">
+      <meta property="og:description" content="">
+      <meta property="og:url" content="https://ismaellachheb.fr/gabtag-journal-development-1/">
+      <meta property="og:image" content="https://ismaellachheb.fr/portfolio.png">
+
+      <meta property="og:type" content="article" />
+        <meta property="article:published_time" content="2019-05-15T00:00:00+00:00" />
+
+      
+      <link rel="next" href="https://ismaellachheb.fr/pyclustertend-journal-development-2/" />
+    
+
+	<script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-142589817-1', 'auto');
+          ga('send', 'pageview');
+        </script>
+  </head>
+  
+
+  <body>
+    <main id="main" role="main">
+
+      
+      <header role="banner">
+        <h3 style="margin-top:0;">
+          <a href="https://ismaellachheb.fr" title="Home">isma&#x27;s hut</a>
+          <br /><small>Bloging about ML, FOSS and green IT</small>
+        </h3>
+      </header>
+      <hr />
+      
+
+      
+<article>
+  <h1>GabTag, an audio tagging tool</h1>
+
+  
+    <p style="font-size:90%;">Posted on <time datetime="2019-05-15T00:00:00+00:00">May 15, 2019</time></p>
+  
+
+  <p>GabTag is a Linux audio tagging tool written in GTK 3, which makes it very suitable for GTK based desktop users. It is also the first Linux application I wrote.</p>
+<p>The program allows users to select several files and modify their tags. It's also possible to let GabTag automatically find tags and lyrics for an audio file using MusicBrainz and lyrics.wikia.com database.</p>
+<p><a href='https://flathub.org/apps/details/com.github.lachhebo.Gabtag'><img width='240' alt='Download on Flathub' src='https://flathub.org/assets/badges/flathub-badge-en.png'/></a></p>
+<h3 id="screenshots">Screenshots</h3>
+<img height="350" src="https://raw.githubusercontent.com/lachhebo/GabTag/screenshots/Gabtag_v13_2.png" />
+<h3 id="features">Features</h3>
+<p>Some features have been developped but the application can still be improved.</p>
+<ul>
+<li><input disabled="" type="checkbox" checked=""/>
+Add, modify or delete basic tags (title, album, artist, genre)</li>
+<li><input disabled="" type="checkbox" checked=""/>
+other strings tags and labels</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Cover tag</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Modify several files at the same time.</li>
+<li><input disabled="" type="checkbox" checked=""/>
+MP3 File handled</li>
+<li><input disabled="" type="checkbox"/>
+Flac File handled</li>
+<li><input disabled="" type="checkbox" checked=""/>
+bold font on modified tags and files</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Automatic completion of tags (from online data)</li>
+<li><input disabled="" type="checkbox" checked=""/>
+Lyrics (from online data)</li>
+<li><input disabled="" type="checkbox"/>
+Multi-folder modification</li>
+<li><input disabled="" type="checkbox"/>
+Acoustic ID integration</li>
+</ul>
+<h4 id="issues-encontered-during-development">Issues encontered during development</h4>
+<p>The issues i enconutered are mostly caused by the lack of documentation regarding gtk3 software development.</p>
+<h5 id="1-setting-up-travis-ci">1) setting up Travis-ci</h5>
+<p>The hardest thing for me has been to set up Travis-ci, I first set up a Travis-org ci (a deprecated version of Travis-ci) instead of the classic Travis-ci. Hence, I was not able to transfer my project in the newer version of Travis-CI. Then, I had to create a new GitHub repository to fix that. Eventually, I also struglled to find out that Travis need the python3-gi package and the PygObject pip package to be able to test the project.</p>
+<h5 id="2-make-the-grid-box-scrollable">2) make the grid box scrollable</h5>
+<p>The second issue I encountered was linked to the layout. To make my grid layout scrollable, I had to put it inside a GtkAspectFrame and a GtkViewport. Anyway my layout is still not completely satisfying because i always need to resize the size of my panel when I'm using Gabtag.</p>
+<h5 id="3-using-gdkpixbufprolog">3) using GdkPixbufProlog</h5>
+<p>Last but not least, this issue which is still not fixed is with gdkpixbuf class. It is a bit surprising how showing an image can be hard in gtk. I had to use an external API called Pillow to show a byte image.</p>
+<p>Even more surprising, for some image, the gtk pixbuf is not showing a scaled version of it but a deformed version of it. This issue is only apparing on my application so I hope I will be able to quickly fix it.</p>
+<p>If you get a solution for those issues, you can send my an email to ismael.lachheb@protonmail.com. Otherwise, I hope my experience can help you.</p>
+<h4 id="gathered-skills">Gathered skills</h4>
+<p>I am proud of my work and hope to keep improving Gabtag. This experience sharped my skills in :</p>
+<ul>
+<li>Python Development</li>
+<li>Continious Integration</li>
+<li>Object oriented programming</li>
+<li>Translation</li>
+<li>Flatpak packaging</li>
+<li>Reverse engineering</li>
+<li>Git</li>
+</ul>
+
+
+</article>
+
+  <hr />
+  <p>
+  <script src="https://utteranc.es/client.js" repo="lachhebo/lachhebo.github.io" issue-term="title" theme="github-light"
+    crossorigin="anonymous" async>
+    </script>
+  </p>
+
+
+
+
+      
+      <footer role="contentinfo">
+        <hr />
+        
+        <nav style="margin-bottom:1rem;" role="navigation">
+          
+            <a href="https://ismaellachheb.fr/about">about</a>
+            
+              <span>&middot;</span>
+            
+          
+            <a href="https://ismaellachheb.fr/atom.xml">rss</a>
+            
+              <span>&middot;</span>
+            
+          
+            <a href="https://github.com/lachhebo">github</a>
+            
+              <span>&middot;</span>
+            
+          
+            <a href="https://twitter.com/lachhebo7">twitter</a>
+            
+          
+        </nav>
+        
+        
+        <small>
+          
+          
+        </small>
+        
+      </footer>
+      
+
+    </main>
+    
+    
+  </body>
+</html>
+
